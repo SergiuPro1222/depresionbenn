@@ -21,10 +21,10 @@ function Fly(bool)
     workspace:WaitForChild("Core")
     local torso = workspace.Core
     local flying = true
-    local speed = 1
-    local maxSpeed = 1.5
-    local acceleration = 0.5
-    local deceleration = 0.5
+    local speed = 0
+    local maxSpeed = 4 -- Adjusted for slower movement
+    local acceleration = 0.1 -- Adjusted for slower acceleration
+    local deceleration = 0.05 -- Adjusted for slower deceleration
     
     local keys = {a = false, d = false, w = false, s = false}
     local e1
@@ -128,5 +128,5 @@ function Fly(bool)
         stop()
     end
 end
-
+print("michaismylove")
 return Fly
