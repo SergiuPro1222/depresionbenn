@@ -45,12 +45,6 @@ function Fly(bool)
             local new = gyro.cframe - gyro.cframe.p + pos.position
             new = new + workspace.CurrentCamera.CoordinateFrame.lookVector * speed
             
-            -- Check if the player is above water and adjust the position accordingly
-            local waterLevel = game.Workspace.Water.Position.Y + game.Workspace.Water.Size.Y / 2
-            if new.y < waterLevel then
-                new = Vector3.new(new.x, waterLevel, new.z)
-            end
-            
             pos.position = new
             
             gyro.cframe = workspace.CurrentCamera.CoordinateFrame
