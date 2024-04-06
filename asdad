@@ -21,10 +21,7 @@ function Fly(bool)
     workspace:WaitForChild("Core")
     local torso = workspace.Core
     local flying = true
-    local speed = 0
-    local maxSpeed = 16 -- Adjusted to match walking speed
-    local acceleration = 0.5 -- Adjusted for smoother acceleration
-    local deceleration = 0.5 -- Adjusted for smoother deceleration
+    local speed = 4 -- Adjusted for slower movement
     
     local keys = {a = false, d = false, w = false, s = false}
     local e1
@@ -44,19 +41,6 @@ function Fly(bool)
         repeat
             wait()
             localplayer.Character.Humanoid.PlatformStand = true
-            
-            local targetSpeed = 0
-            if keys.w then
-                targetSpeed = maxSpeed
-            elseif keys.s then
-                targetSpeed = -maxSpeed
-            end
-            
-            if targetSpeed > speed then
-                speed = math.min(speed + acceleration, targetSpeed)
-            elseif targetSpeed < speed then
-                speed = math.max(speed - acceleration, targetSpeed)
-            end
             
             local new = gyro.cframe - gyro.cframe.p + pos.position
             new = new + workspace.CurrentCamera.CoordinateFrame.lookVector * speed
@@ -92,33 +76,11 @@ function Fly(bool)
             return
         end
         
-        if key == "w" then
-            keys.w = true
-        elseif key == "s" then
-            keys.s = true
-        elseif key == "a" then
-            keys.a = true
-        elseif key == "d" then
-            keys.d = true
-        elseif key == "x" then
-            if flying == true then
-                flying = false
-            else
-                flying = true
+        if key == "x" then
+            flying = not flying
+            if flying then
                 start()
             end
-        end
-    end)
-    
-    e2 = mouse.KeyUp:Connect(function(key)
-        if key == "w" then
-            keys.w = false
-        elseif key == "s" then
-            keys.s = false
-        elseif key == "a" then
-            keys.a = false
-        elseif key == "d" then
-            keys.d = false
         end
     end)
     
