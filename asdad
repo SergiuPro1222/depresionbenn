@@ -21,7 +21,10 @@ function Fly(bool)
     workspace:WaitForChild("Core")
     local torso = workspace.Core
     local flying = true
-    local speed = 5 -- Starting speed
+    local speed = 0
+    local maxSpeed = 3
+    local acceleration = 2
+    local deceleration = 1
     
     local keys = {a = false, d = false, w = false, s = false}
     local e1
@@ -41,45 +44,29 @@ function Fly(bool)
         repeat
             wait()
             localplayer.Character.Humanoid.PlatformStand = true
-            local new = gyro.cframe - gyro.cframe.p + pos.position
-            
-            if not keys.w and not keys.s and not keys.a and not keys.d then
-                speed = 1 -- Reduced speed when not moving
-            end
             
             if keys.w then
-                new = new + workspace.CurrentCamera.CoordinateFrame.lookVector * (speed * 0.5)
-                speed = speed + 0.1
+                if speed < maxSpeed then
+                    speed = speed + acceleration
+                end
+            elseif keys.s then
+                if speed > -maxSpeed then
+                    speed = speed - acceleration
+                end
+            else
+                if speed > 0 then
+                    speed = math.max(0, speed - deceleration)
+                elseif speed < 0 then
+                    speed = math.min(0, speed + deceleration)
+                end
             end
             
-            if keys.s then
-                new = new - workspace.CurrentCamera.CoordinateFrame.lookVector * (speed * 0.5)
-                speed = speed + 0.1
-            end
-            
-            if keys.d then
-                new = new * CFrame.new(speed * 0.5, 0, 0)
-                speed = speed + 0.1
-            end
-            
-            if keys.a then
-                new = new * CFrame.new(-speed * 0.5, 0, 0)
-                speed = speed + 0.1
-            end
-            
-            if speed > 10 then
-                speed = 5
-            end
+            local new = gyro.cframe - gyro.cframe.p + pos.position
+            new = new + workspace.CurrentCamera.CoordinateFrame.lookVector * speed
             
             pos.position = new.p
             
-            if keys.w then
-                gyro.cframe = workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad(speed * 0), 0, 0)
-            elseif keys.s then
-                gyro.cframe = workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(math.rad(speed * 0), 0, 0)
-            else
-                gyro.cframe = workspace.CurrentCamera.CoordinateFrame
-            end
+            gyro.cframe = workspace.CurrentCamera.CoordinateFrame
         until not flying
         
         if gyro then
@@ -92,10 +79,9 @@ function Fly(bool)
         
         flying = false
         localplayer.Character.Humanoid.PlatformStand = false
-        speed = 10
     end
     
-    e1 = mouse.KeyDown:connect(function(key)
+    e1 = mouse.KeyDown:Connect(function(key)
         if not torso or not torso.Parent then
             flying = false
             e1:Disconnect()
@@ -121,7 +107,7 @@ function Fly(bool)
         end
     end)
     
-    e2 = mouse.KeyUp:connect(function(key)
+    e2 = mouse.KeyUp:Connect(function(key)
         if key == "w" then
             keys.w = false
         elseif key == "s" then
