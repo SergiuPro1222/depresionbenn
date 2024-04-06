@@ -21,7 +21,7 @@ function Fly(bool)
     workspace:WaitForChild("Core")
     local torso = workspace.Core
     local flying = true
-    local speed = 0
+    local speed = 1
     local maxSpeed = 1.5
     local acceleration = 0.5
     local deceleration = 0.5
