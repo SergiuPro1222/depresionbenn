@@ -22,9 +22,9 @@ function Fly(bool)
     local torso = workspace.Core
     local flying = true
     local speed = 0
-    local maxSpeed = 4 -- Adjusted for slower movement
-    local acceleration = 0.1 -- Adjusted for slower acceleration
-    local deceleration = 0.05 -- Adjusted for slower deceleration
+    local maxSpeed = 16 -- Adjusted to match walking speed
+    local acceleration = 0.5 -- Adjusted for smoother acceleration
+    local deceleration = 0.5 -- Adjusted for smoother deceleration
     
     local keys = {a = false, d = false, w = false, s = false}
     local e1
@@ -45,26 +45,29 @@ function Fly(bool)
             wait()
             localplayer.Character.Humanoid.PlatformStand = true
             
+            local targetSpeed = 0
             if keys.w then
-                if speed < maxSpeed then
-                    speed = speed + acceleration
-                end
+                targetSpeed = maxSpeed
             elseif keys.s then
-                if speed > -maxSpeed then
-                    speed = speed - acceleration
-                end
-            else
-                if speed > 0 then
-                    speed = math.max(0, speed - deceleration)
-                elseif speed < 0 then
-                    speed = math.min(0, speed + deceleration)
-                end
+                targetSpeed = -maxSpeed
+            end
+            
+            if targetSpeed > speed then
+                speed = math.min(speed + acceleration, targetSpeed)
+            elseif targetSpeed < speed then
+                speed = math.max(speed - acceleration, targetSpeed)
             end
             
             local new = gyro.cframe - gyro.cframe.p + pos.position
             new = new + workspace.CurrentCamera.CoordinateFrame.lookVector * speed
             
-            pos.position = new.p
+            -- Check if the player is above water and adjust the position accordingly
+            local waterLevel = game.Workspace.Water.Position.Y + game.Workspace.Water.Size.Y / 2
+            if new.y < waterLevel then
+                new = Vector3.new(new.x, waterLevel, new.z)
+            end
+            
+            pos.position = new
             
             gyro.cframe = workspace.CurrentCamera.CoordinateFrame
         until not flying
@@ -124,9 +127,10 @@ function Fly(bool)
     
     if bool == true then
         start()
+        print("Fly script loaded successfully with iloveonlymicha")
     else
         stop()
     end
 end
-print("michaismylove")
+
 return Fly
