@@ -22,9 +22,9 @@ function Fly(bool)
     local torso = workspace.Core
     local flying = true
     local speed = 0
-    local maxSpeed = 3
-    local acceleration = 2
-    local deceleration = 1
+    local maxSpeed = 1.5
+    local acceleration = 0.5
+    local deceleration = 0.5
     
     local keys = {a = false, d = false, w = false, s = false}
     local e1
