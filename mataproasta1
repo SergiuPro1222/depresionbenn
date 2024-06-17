@@ -1,0 +1,1509 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local DendriteBooga = Instance.new("ScreenGui")
+local Murder = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local Goldferm = Instance.new("ScrollingFrame")
+local TextLabel_2 = Instance.new("TextLabel")
+local Localfeatures = Instance.new("ScrollingFrame")
+local TextLabel_3 = Instance.new("TextLabel")
+local Spped = Instance.new("Frame")
+local TextButton_6 = Instance.new("TextButton")
+local checkerudeemn = Instance.new("TextLabel")
+local localspds = Instance.new("Frame")
+local Progress = Instance.new("Frame")
+local Interact = Instance.new("TextButton")
+local Value = Instance.new("TextLabel")
+local aladeziceee = Instance.new("TextLabel")
+local fovenb = Instance.new("Frame")
+local TextButton_7 = Instance.new("TextButton")
+local checkerudeemn_2 = Instance.new("TextLabel")
+local localfo = Instance.new("Frame")
+local Progress_2 = Instance.new("Frame")
+local Interact_2 = Instance.new("TextButton")
+local Value_2 = Instance.new("TextLabel")
+local aladeziceee_2 = Instance.new("TextLabel")
+local nc = Instance.new("Frame")
+local TextButton_8 = Instance.new("TextButton")
+local checkerudeemn_3 = Instance.new("TextLabel")
+local otherfarm = Instance.new("ScrollingFrame")
+local TextLabel_4 = Instance.new("TextLabel")
+local xpferm = Instance.new("ScrollingFrame")
+local TextLabel_5 = Instance.new("TextLabel")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local mainfeatures = Instance.new("ScrollingFrame")
+local TextLabel_6 = Instance.new("TextLabel")
+local ennableheal = Instance.new("Frame")
+local TextButton_9 = Instance.new("TextButton")
+local checkerudeemn_4 = Instance.new("TextLabel")
+local dropdwnpr = Instance.new("Frame")
+local select = Instance.new("TextButton")
+local Menu = Instance.new("Frame")
+local UIListLayout = Instance.new("UIListLayout")
+local TextButton_10 = Instance.new("TextButton")
+local TextButton_11 = Instance.new("TextButton")
+local TextButton_12 = Instance.new("TextButton")
+local TextButton_13 = Instance.new("TextButton")
+local TextButton_14 = Instance.new("TextButton")
+local TextButton_15 = Instance.new("TextButton")
+local Domain = Instance.new("Frame")
+local Progress_3 = Instance.new("Frame")
+local Interact_3 = Instance.new("TextButton")
+local Value_3 = Instance.new("TextLabel")
+local aladeziceee_3 = Instance.new("TextLabel")
+local dropdwndoia = Instance.new("Frame")
+local select_2 = Instance.new("TextButton")
+local Menu_2 = Instance.new("Frame")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local TextButton_16 = Instance.new("TextButton")
+local TextButton_17 = Instance.new("TextButton")
+local TextLabel_7 = Instance.new("TextLabel")
+local htiauraas = Instance.new("Frame")
+local TextButton_18 = Instance.new("TextButton")
+local checkerudeemn_5 = Instance.new("TextLabel")
+local hitmatio = Instance.new("Frame")
+local TextButton_19 = Instance.new("TextButton")
+local checkerudeemn_6 = Instance.new("TextLabel")
+
+--Properties:
+
+DendriteBooga.Name = "Dendrite.Booga"
+DendriteBooga.Parent = game.CoreGui
+
+Murder.Name = "Murder"
+Murder.Parent = DendriteBooga
+Murder.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Murder.BorderColor3 = Color3.fromRGB(255, 170, 0)
+Murder.Position = UDim2.new(0.168716758, 0, 0.157318741, 0)
+Murder.Size = UDim2.new(0, 419, 0, 399)
+
+TextLabel.Parent = Murder
+TextLabel.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+TextLabel.BorderColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel.Size = UDim2.new(0, 419, 0, 29)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = " Dendrite.cc"
+TextLabel.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel.TextSize = 20.000
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+TextButton.Parent = Murder
+TextButton.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+TextButton.BorderColor3 = Color3.fromRGB(255, 170, 0)
+TextButton.Position = UDim2.new(0.0143198092, 0, 0.0877192989, 0)
+TextButton.Size = UDim2.new(0, 71, 0, 25)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Main"
+TextButton.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton.TextSize = 16.000
+TextButton.TextStrokeColor3 = Color3.fromRGB(255, 170, 0)
+
+TextButton_2.Parent = Murder
+TextButton_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+TextButton_2.BorderColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_2.Position = UDim2.new(0.215000004, 0, 0.0879999995, 0)
+TextButton_2.Size = UDim2.new(0, 71, 0, 25)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Visuals"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_2.TextSize = 16.000
+TextButton_2.TextStrokeColor3 = Color3.fromRGB(255, 170, 0)
+
+TextButton_3.Parent = Murder
+TextButton_3.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+TextButton_3.BorderColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_3.Position = UDim2.new(0.415274471, 0, 0.0877192989, 0)
+TextButton_3.Size = UDim2.new(0, 71, 0, 25)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Misc"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_3.TextSize = 16.000
+TextButton_3.TextStrokeColor3 = Color3.fromRGB(255, 170, 0)
+
+TextButton_4.Parent = Murder
+TextButton_4.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+TextButton_4.BorderColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_4.Position = UDim2.new(0.61500001, 0, 0.0879999995, 0)
+TextButton_4.Size = UDim2.new(0, 71, 0, 25)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "Target"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_4.TextSize = 16.000
+TextButton_4.TextStrokeColor3 = Color3.fromRGB(255, 170, 0)
+
+TextButton_5.Parent = Murder
+TextButton_5.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+TextButton_5.BorderColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_5.Position = UDim2.new(0.813842475, 0, 0.0877192989, 0)
+TextButton_5.Size = UDim2.new(0, 71, 0, 25)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "Settings"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_5.TextSize = 16.000
+TextButton_5.TextStrokeColor3 = Color3.fromRGB(255, 170, 0)
+
+Goldferm.Name = "Goldferm"
+Goldferm.Parent = Murder
+Goldferm.Active = true
+Goldferm.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Goldferm.BorderColor3 = Color3.fromRGB(255, 170, 0)
+Goldferm.Position = UDim2.new(0.503260076, 0, 0.583800912, 0)
+Goldferm.Size = UDim2.new(0, 200, 0, 162)
+Goldferm.Visible = false
+Goldferm.ScrollBarThickness = 4
+
+TextLabel_2.Parent = Goldferm
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(-0.00499999989, 0, -0.00041632005, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 29)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Gold Farm"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_2.TextSize = 17.000
+
+Localfeatures.Name = "Localfeatures"
+Localfeatures.Parent = Murder
+Localfeatures.Active = true
+Localfeatures.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Localfeatures.BorderColor3 = Color3.fromRGB(255, 170, 0)
+Localfeatures.Position = UDim2.new(0.00922672357, 0, 0.166363478, 0)
+Localfeatures.Size = UDim2.new(0, 200, 0, 162)
+Localfeatures.Visible = false
+Localfeatures.ScrollBarThickness = 4
+
+TextLabel_3.Parent = Localfeatures
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(-0.00499999989, 0, 0.00306282053, 0)
+TextLabel_3.Size = UDim2.new(0, 200, 0, 27)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Local Features"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_3.TextSize = 17.000
+
+Spped.Name = "Spped"
+Spped.Parent = Localfeatures
+Spped.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Spped.BorderColor3 = Color3.fromRGB(255, 170, 0)
+Spped.Position = UDim2.new(0.0222581476, 0, 0.0572869554, 0)
+Spped.Size = UDim2.new(0, 186, 0, 24)
+
+TextButton_6.Parent = Spped
+TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.BackgroundTransparency = 1.000
+TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(0.00537634408, 0, 0, 0)
+TextButton_6.Size = UDim2.new(0, 185, 0, 24)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "   Enable Local Speed"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_6.TextSize = 14.000
+TextButton_6.TextXAlignment = Enum.TextXAlignment.Left
+
+checkerudeemn.Name = "checkerudeemn"
+checkerudeemn.Parent = Spped
+checkerudeemn.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+checkerudeemn.BorderColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn.BorderSizePixel = 0
+checkerudeemn.Position = UDim2.new(0.870000005, 0, 0.208333328, 0)
+checkerudeemn.Size = UDim2.new(0, 17, 0, 14)
+checkerudeemn.Font = Enum.Font.SourceSans
+checkerudeemn.Text = ""
+checkerudeemn.TextColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn.TextSize = 15.000
+
+localspds.Name = "localspds"
+localspds.Parent = Localfeatures
+localspds.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+localspds.BorderColor3 = Color3.fromRGB(255, 170, 0)
+localspds.Position = UDim2.new(0.0225346368, 0, 0.114879563, 0)
+localspds.Size = UDim2.new(0, 186, 0, 15)
+
+Progress.Name = "Progress"
+Progress.Parent = localspds
+Progress.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+Progress.BackgroundTransparency = 0.700
+Progress.BorderSizePixel = 0
+Progress.Size = UDim2.new(-0.510372818, 100, 1, 0)
+
+Interact.Name = "Interact"
+Interact.Parent = localspds
+Interact.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Interact.BackgroundTransparency = 1.000
+Interact.Position = UDim2.new(0.0303030312, 0, 0, 0)
+Interact.Size = UDim2.new(0.952380955, 0, 1, 0)
+Interact.Font = Enum.Font.SourceSans
+Interact.Text = ""
+Interact.TextColor3 = Color3.fromRGB(0, 0, 0)
+Interact.TextSize = 14.000
+
+Value.Name = "Value"
+Value.Parent = localspds
+Value.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Value.BackgroundTransparency = 1.000
+Value.Position = UDim2.new(-0.00552614266, 0, 0, 0)
+Value.Size = UDim2.new(0, 173, 0, 14)
+Value.Font = Enum.Font.Roboto
+Value.Text = "16/24"
+Value.TextColor3 = Color3.fromRGB(255, 170, 0)
+Value.TextScaled = true
+Value.TextSize = 20.000
+Value.TextWrapped = true
+
+aladeziceee.Name = "aladeziceee"
+aladeziceee.Parent = localspds
+aladeziceee.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+aladeziceee.BackgroundTransparency = 1.000
+aladeziceee.BorderColor3 = Color3.fromRGB(0, 0, 0)
+aladeziceee.BorderSizePixel = 0
+aladeziceee.Position = UDim2.new(0, 0, -1, 0)
+aladeziceee.Size = UDim2.new(0, 174, 0, 15)
+aladeziceee.Font = Enum.Font.SourceSans
+aladeziceee.Text = "Local Speed"
+aladeziceee.TextColor3 = Color3.fromRGB(255, 170, 0)
+aladeziceee.TextSize = 14.000
+
+fovenb.Name = "fovenb"
+fovenb.Parent = Localfeatures
+fovenb.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+fovenb.BorderColor3 = Color3.fromRGB(255, 170, 0)
+fovenb.Position = UDim2.new(0.0219999999, 0, 0.150000006, 0)
+fovenb.Size = UDim2.new(0, 186, 0, 24)
+
+TextButton_7.Parent = fovenb
+TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.BackgroundTransparency = 1.000
+TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BorderSizePixel = 0
+TextButton_7.Size = UDim2.new(0, 174, 0, 24)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "  Enable Local Fov"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_7.TextSize = 14.000
+TextButton_7.TextXAlignment = Enum.TextXAlignment.Left
+
+checkerudeemn_2.Name = "checkerudeemn"
+checkerudeemn_2.Parent = fovenb
+checkerudeemn_2.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+checkerudeemn_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn_2.BorderSizePixel = 0
+checkerudeemn_2.Position = UDim2.new(0.870000005, 0, 0.208333328, 0)
+checkerudeemn_2.Size = UDim2.new(0, 17, 0, 14)
+checkerudeemn_2.Font = Enum.Font.SourceSans
+checkerudeemn_2.Text = ""
+checkerudeemn_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn_2.TextSize = 15.000
+
+localfo.Name = "localfo"
+localfo.Parent = Localfeatures
+localfo.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+localfo.BorderColor3 = Color3.fromRGB(255, 170, 0)
+localfo.Position = UDim2.new(0.0225346368, 0, 0.206788987, 0)
+localfo.Size = UDim2.new(0, 186, 0, 15)
+
+Progress_2.Name = "Progress"
+Progress_2.Parent = localfo
+Progress_2.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+Progress_2.BackgroundTransparency = 0.700
+Progress_2.BorderSizePixel = 0
+Progress_2.Size = UDim2.new(-0.510372818, 100, 1, 0)
+
+Interact_2.Name = "Interact"
+Interact_2.Parent = localfo
+Interact_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Interact_2.BackgroundTransparency = 1.000
+Interact_2.Position = UDim2.new(0.0303030312, 0, 0, 0)
+Interact_2.Size = UDim2.new(0.952380955, 0, 1, 0)
+Interact_2.Font = Enum.Font.SourceSans
+Interact_2.Text = ""
+Interact_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Interact_2.TextSize = 14.000
+
+Value_2.Name = "Value"
+Value_2.Parent = localfo
+Value_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Value_2.BackgroundTransparency = 1.000
+Value_2.Position = UDim2.new(-0.0120147374, 0, 0.0666666701, 0)
+Value_2.Size = UDim2.new(0, 188, 0, 14)
+Value_2.Font = Enum.Font.Roboto
+Value_2.Text = "65/120"
+Value_2.TextColor3 = Color3.fromRGB(255, 170, 0)
+Value_2.TextScaled = true
+Value_2.TextSize = 20.000
+Value_2.TextWrapped = true
+
+aladeziceee_2.Name = "aladeziceee"
+aladeziceee_2.Parent = localfo
+aladeziceee_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+aladeziceee_2.BackgroundTransparency = 1.000
+aladeziceee_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+aladeziceee_2.BorderSizePixel = 0
+aladeziceee_2.Position = UDim2.new(0, 0, -1, 0)
+aladeziceee_2.Size = UDim2.new(0, 174, 0, 15)
+aladeziceee_2.Font = Enum.Font.SourceSans
+aladeziceee_2.Text = "Local Fov"
+aladeziceee_2.TextColor3 = Color3.fromRGB(255, 170, 0)
+aladeziceee_2.TextSize = 14.000
+
+nc.Name = "nc"
+nc.Parent = Localfeatures
+nc.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+nc.BorderColor3 = Color3.fromRGB(255, 170, 0)
+nc.Position = UDim2.new(0.0272581484, 0, 0.239090726, 0)
+nc.Size = UDim2.new(0, 186, 0, 24)
+
+TextButton_8.Parent = nc
+TextButton_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.BackgroundTransparency = 1.000
+TextButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.BorderSizePixel = 0
+TextButton_8.Size = UDim2.new(0, 185, 0, 24)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "  Noclip"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_8.TextSize = 14.000
+TextButton_8.TextXAlignment = Enum.TextXAlignment.Left
+
+checkerudeemn_3.Name = "checkerudeemn"
+checkerudeemn_3.Parent = nc
+checkerudeemn_3.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+checkerudeemn_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn_3.BorderSizePixel = 0
+checkerudeemn_3.Position = UDim2.new(0.870000005, 0, 0.208333328, 0)
+checkerudeemn_3.Size = UDim2.new(0, 17, 0, 14)
+checkerudeemn_3.Font = Enum.Font.SourceSans
+checkerudeemn_3.Text = ""
+checkerudeemn_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn_3.TextSize = 15.000
+
+otherfarm.Name = "otherfarm"
+otherfarm.Parent = Murder
+otherfarm.Active = true
+otherfarm.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+otherfarm.BorderColor3 = Color3.fromRGB(255, 170, 0)
+otherfarm.Position = UDim2.new(0.0139999203, 0, 0.583800912, 0)
+otherfarm.Size = UDim2.new(0, 200, 0, 162)
+otherfarm.Visible = false
+otherfarm.ScrollBarThickness = 4
+
+TextLabel_4.Parent = otherfarm
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(-0.00499999989, 0, -0.00041632005, 0)
+TextLabel_4.Size = UDim2.new(0, 200, 0, 29)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Farm Features"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_4.TextSize = 17.000
+
+xpferm.Name = "xpferm"
+xpferm.Parent = Murder
+xpferm.Active = true
+xpferm.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+xpferm.BorderColor3 = Color3.fromRGB(255, 170, 0)
+xpferm.Position = UDim2.new(0.503260076, 0, 0.166363478, 0)
+xpferm.Size = UDim2.new(0, 200, 0, 162)
+xpferm.Visible = false
+xpferm.ScrollBarThickness = 4
+
+TextLabel_5.Parent = xpferm
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(-0.00499999989, 0, -0.00041632005, 0)
+TextLabel_5.Size = UDim2.new(0, 200, 0, 29)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "XP Farm"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_5.TextSize = 17.000
+
+ScrollingFrame.Parent = Murder
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+ScrollingFrame.BorderColor3 = Color3.fromRGB(255, 170, 0)
+ScrollingFrame.Position = UDim2.new(0.505646706, 0, 0.183907345, 0)
+ScrollingFrame.Size = UDim2.new(0, 200, 0, 320)
+ScrollingFrame.ScrollBarThickness = 4
+
+mainfeatures.Name = "main features"
+mainfeatures.Parent = Murder
+mainfeatures.Active = true
+mainfeatures.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+mainfeatures.BorderColor3 = Color3.fromRGB(255, 170, 0)
+mainfeatures.Position = UDim2.new(0.0139999939, 0, 0.183907256, 0)
+mainfeatures.Size = UDim2.new(0, 200, 0, 320)
+mainfeatures.ScrollBarThickness = 4
+
+TextLabel_6.Parent = mainfeatures
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(-0.00499999989, 0, 0.00306282053, 0)
+TextLabel_6.Size = UDim2.new(0, 200, 0, 27)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "Healing Features"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_6.TextSize = 17.000
+
+ennableheal.Name = "ennableheal"
+ennableheal.Parent = mainfeatures
+ennableheal.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+ennableheal.BorderColor3 = Color3.fromRGB(255, 170, 0)
+ennableheal.Position = UDim2.new(0.0320000015, 0, 0.0590000004, 0)
+ennableheal.Size = UDim2.new(0, 186, 0, 24)
+
+TextButton_9.Parent = ennableheal
+TextButton_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.BackgroundTransparency = 1.000
+TextButton_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.BorderSizePixel = 0
+TextButton_9.Position = UDim2.new(3.28146001e-07, 0, 6.35782897e-07, 0)
+TextButton_9.Size = UDim2.new(0, 185, 0, 24)
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.Text = "  Enable Healing"
+TextButton_9.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_9.TextSize = 15.000
+TextButton_9.TextXAlignment = Enum.TextXAlignment.Left
+
+checkerudeemn_4.Name = "checkerudeemn"
+checkerudeemn_4.Parent = ennableheal
+checkerudeemn_4.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+checkerudeemn_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn_4.BorderSizePixel = 0
+checkerudeemn_4.Position = UDim2.new(0.864623666, 0, 0.175927475, 0)
+checkerudeemn_4.Size = UDim2.new(0, 17, 0, 14)
+checkerudeemn_4.Font = Enum.Font.SourceSans
+checkerudeemn_4.Text = ""
+checkerudeemn_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn_4.TextSize = 14.000
+
+dropdwnpr.Name = "dropdwnpr"
+dropdwnpr.Parent = mainfeatures
+dropdwnpr.Active = true
+dropdwnpr.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+dropdwnpr.BorderColor3 = Color3.fromRGB(0, 0, 0)
+dropdwnpr.BorderSizePixel = 0
+dropdwnpr.Position = UDim2.new(0.0320474245, 0, 0.106309131, 0)
+dropdwnpr.Size = UDim2.new(0, 186, 0, 24)
+
+select.Name = "select"
+select.Parent = dropdwnpr
+select.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+select.BorderColor3 = Color3.fromRGB(255, 170, 0)
+select.Position = UDim2.new(-0.000258086831, 0, -0.0189997349, 0)
+select.Size = UDim2.new(0, 186, 0, 24)
+select.Font = Enum.Font.SourceSans
+select.Text = "Bloodfruit"
+select.TextColor3 = Color3.fromRGB(255, 170, 0)
+select.TextSize = 18.000
+
+Menu.Name = "Menu"
+Menu.Parent = dropdwnpr
+Menu.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Menu.BorderColor3 = Color3.fromRGB(255, 170, 0)
+Menu.Position = UDim2.new(-1.14851105e-06, 0, 0.999999344, 0)
+Menu.Size = UDim2.new(0, 185, 0, 145)
+Menu.Visible = false
+Menu.ZIndex = 3
+
+UIListLayout.Parent = Menu
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+
+TextButton_10.Parent = Menu
+TextButton_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.BackgroundTransparency = 1.000
+TextButton_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.BorderSizePixel = 0
+TextButton_10.Position = UDim2.new(0, 0, 1.05233028e-07, 0)
+TextButton_10.Size = UDim2.new(0, 185, 0, 24)
+TextButton_10.Visible = false
+TextButton_10.ZIndex = 3
+TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.Text = "Bloodfruit"
+TextButton_10.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_10.TextSize = 18.000
+TextButton_10.TextWrapped = true
+
+TextButton_11.Parent = Menu
+TextButton_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_11.BackgroundTransparency = 1.000
+TextButton_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_11.BorderSizePixel = 0
+TextButton_11.Position = UDim2.new(0, 0, 0.165856093, 0)
+TextButton_11.Size = UDim2.new(0, 185, 0, 24)
+TextButton_11.Visible = false
+TextButton_11.ZIndex = 3
+TextButton_11.Font = Enum.Font.SourceSans
+TextButton_11.Text = "Lemon"
+TextButton_11.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_11.TextSize = 18.000
+TextButton_11.TextWrapped = true
+
+TextButton_12.Parent = Menu
+TextButton_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_12.BackgroundTransparency = 1.000
+TextButton_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_12.BorderSizePixel = 0
+TextButton_12.Position = UDim2.new(0, 0, 0.331712604, 0)
+TextButton_12.Size = UDim2.new(0, 185, 0, 24)
+TextButton_12.Visible = false
+TextButton_12.ZIndex = 3
+TextButton_12.Font = Enum.Font.SourceSans
+TextButton_12.Text = "Berry"
+TextButton_12.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_12.TextSize = 18.000
+TextButton_12.TextWrapped = true
+
+TextButton_13.Parent = Menu
+TextButton_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_13.BackgroundTransparency = 1.000
+TextButton_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_13.BorderSizePixel = 0
+TextButton_13.Position = UDim2.new(0, 0, 0.497568697, 0)
+TextButton_13.Size = UDim2.new(0, 185, 0, 24)
+TextButton_13.Visible = false
+TextButton_13.ZIndex = 3
+TextButton_13.Font = Enum.Font.SourceSans
+TextButton_13.Text = "Carrot"
+TextButton_13.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_13.TextSize = 18.000
+TextButton_13.TextWrapped = true
+
+TextButton_14.Parent = Menu
+TextButton_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_14.BackgroundTransparency = 1.000
+TextButton_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_14.BorderSizePixel = 0
+TextButton_14.Position = UDim2.new(0, 0, 0.663425207, 0)
+TextButton_14.Size = UDim2.new(0, 185, 0, 24)
+TextButton_14.Visible = false
+TextButton_14.ZIndex = 3
+TextButton_14.Font = Enum.Font.SourceSans
+TextButton_14.Text = "Bluefruit"
+TextButton_14.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_14.TextSize = 18.000
+TextButton_14.TextWrapped = true
+
+TextButton_15.Parent = Menu
+TextButton_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_15.BackgroundTransparency = 1.000
+TextButton_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_15.BorderSizePixel = 0
+TextButton_15.Position = UDim2.new(0, 0, 0.82928133, 0)
+TextButton_15.Size = UDim2.new(0, 185, 0, 24)
+TextButton_15.Visible = false
+TextButton_15.ZIndex = 3
+TextButton_15.Font = Enum.Font.SourceSans
+TextButton_15.Text = "Prickly Pear"
+TextButton_15.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_15.TextSize = 18.000
+TextButton_15.TextWrapped = true
+
+Domain.Name = "Domain"
+Domain.Parent = mainfeatures
+Domain.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Domain.BorderColor3 = Color3.fromRGB(255, 170, 0)
+Domain.Position = UDim2.new(0.0320000015, 0, 0.164000005, 0)
+Domain.Size = UDim2.new(0, 186, 0, 15)
+
+Progress_3.Name = "Progress"
+Progress_3.Parent = Domain
+Progress_3.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+Progress_3.BackgroundTransparency = 0.700
+Progress_3.BorderSizePixel = 0
+Progress_3.Size = UDim2.new(-0.510372818, 100, 1, 0)
+
+Interact_3.Name = "Interact"
+Interact_3.Parent = Domain
+Interact_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Interact_3.BackgroundTransparency = 1.000
+Interact_3.Position = UDim2.new(0.0303030312, 0, 0, 0)
+Interact_3.Size = UDim2.new(0.952380955, 0, 1, 0)
+Interact_3.Font = Enum.Font.SourceSans
+Interact_3.Text = ""
+Interact_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Interact_3.TextSize = 14.000
+
+Value_3.Name = "Value"
+Value_3.Parent = Domain
+Value_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Value_3.BackgroundTransparency = 1.000
+Value_3.Position = UDim2.new(0.00695242919, 0, 0.0666666701, 0)
+Value_3.Size = UDim2.new(0, 184, 0, 14)
+Value_3.Font = Enum.Font.Roboto
+Value_3.Text = "35/100%"
+Value_3.TextColor3 = Color3.fromRGB(255, 170, 0)
+Value_3.TextScaled = true
+Value_3.TextSize = 20.000
+Value_3.TextWrapped = true
+
+aladeziceee_3.Name = "aladeziceee"
+aladeziceee_3.Parent = Domain
+aladeziceee_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+aladeziceee_3.BackgroundTransparency = 1.000
+aladeziceee_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+aladeziceee_3.BorderSizePixel = 0
+aladeziceee_3.Position = UDim2.new(0, 0, -1, 0)
+aladeziceee_3.Size = UDim2.new(0, 174, 0, 15)
+aladeziceee_3.Font = Enum.Font.SourceSans
+aladeziceee_3.Text = "Health Precent"
+aladeziceee_3.TextColor3 = Color3.fromRGB(255, 170, 0)
+aladeziceee_3.TextSize = 14.000
+
+dropdwndoia.Name = "dropdwndoia"
+dropdwndoia.Parent = mainfeatures
+dropdwndoia.Active = true
+dropdwndoia.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+dropdwndoia.BorderColor3 = Color3.fromRGB(0, 0, 0)
+dropdwndoia.BorderSizePixel = 0
+dropdwndoia.Position = UDim2.new(0.0320000015, 0, 0.200000003, 0)
+dropdwndoia.Size = UDim2.new(0, 186, 0, 24)
+
+select_2.Name = "select"
+select_2.Parent = dropdwndoia
+select_2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+select_2.BorderColor3 = Color3.fromRGB(255, 170, 0)
+select_2.Position = UDim2.new(0.00362781808, 0, -0.0359954834, 0)
+select_2.Size = UDim2.new(0, 186, 0, 24)
+select_2.Font = Enum.Font.SourceSans
+select_2.Text = "Legit Mode"
+select_2.TextColor3 = Color3.fromRGB(255, 170, 0)
+select_2.TextSize = 18.000
+
+Menu_2.Name = "Menu"
+Menu_2.Parent = dropdwndoia
+Menu_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Menu_2.BorderColor3 = Color3.fromRGB(255, 170, 0)
+Menu_2.Position = UDim2.new(-0.00074259442, 0, 0.999996185, 0)
+Menu_2.Size = UDim2.new(0, 186, 0, 53)
+Menu_2.Visible = false
+Menu_2.ZIndex = 2
+
+UIListLayout_2.Parent = Menu_2
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+
+TextButton_16.Parent = Menu_2
+TextButton_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_16.BackgroundTransparency = 1.000
+TextButton_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_16.BorderSizePixel = 0
+TextButton_16.Position = UDim2.new(-8.1163769e-08, 0, 0, 0)
+TextButton_16.Size = UDim2.new(0, 186, 0, 26)
+TextButton_16.Visible = false
+TextButton_16.ZIndex = 2
+TextButton_16.Font = Enum.Font.SourceSans
+TextButton_16.Text = "Legit Mode"
+TextButton_16.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_16.TextSize = 18.000
+
+TextButton_17.Parent = Menu_2
+TextButton_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_17.BackgroundTransparency = 1.000
+TextButton_17.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_17.BorderSizePixel = 0
+TextButton_17.Position = UDim2.new(-8.1163769e-08, 0, 0.5, 0)
+TextButton_17.Size = UDim2.new(0, 186, 0, 26)
+TextButton_17.Visible = false
+TextButton_17.ZIndex = 2
+TextButton_17.Font = Enum.Font.SourceSans
+TextButton_17.Text = "Rage Mode"
+TextButton_17.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_17.TextSize = 18.000
+
+TextLabel_7.Parent = mainfeatures
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0, 0, 0.244291782, 0)
+TextLabel_7.Size = UDim2.new(0, 200, 0, 27)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "Combat Features"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_7.TextSize = 17.000
+
+htiauraas.Name = "htiauraas"
+htiauraas.Parent = mainfeatures
+htiauraas.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+htiauraas.BorderColor3 = Color3.fromRGB(255, 170, 0)
+htiauraas.Position = UDim2.new(0.0222581476, 0, 0.29825002, 0)
+htiauraas.Size = UDim2.new(0, 186, 0, 24)
+
+TextButton_18.Parent = htiauraas
+TextButton_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_18.BackgroundTransparency = 1.000
+TextButton_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_18.BorderSizePixel = 0
+TextButton_18.Position = UDim2.new(0.00509873265, 0, 0, 0)
+TextButton_18.Size = UDim2.new(0, 184, 0, 24)
+TextButton_18.Font = Enum.Font.SourceSans
+TextButton_18.Text = "  Hit Aura"
+TextButton_18.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_18.TextSize = 14.000
+TextButton_18.TextXAlignment = Enum.TextXAlignment.Left
+
+checkerudeemn_5.Name = "checkerudeemn"
+checkerudeemn_5.Parent = htiauraas
+checkerudeemn_5.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+checkerudeemn_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn_5.BorderSizePixel = 0
+checkerudeemn_5.Position = UDim2.new(0.870000005, 0, 0.208333328, 0)
+checkerudeemn_5.Size = UDim2.new(0, 17, 0, 14)
+checkerudeemn_5.Font = Enum.Font.SourceSans
+checkerudeemn_5.Text = ""
+checkerudeemn_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn_5.TextSize = 14.000
+
+hitmatio.Name = "hitmatio"
+hitmatio.Parent = mainfeatures
+hitmatio.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+hitmatio.BorderColor3 = Color3.fromRGB(255, 170, 0)
+hitmatio.Position = UDim2.new(0.0219999701, 0, 0.345582306, 0)
+hitmatio.Size = UDim2.new(0, 186, 0, 24)
+
+TextButton_19.Parent = hitmatio
+TextButton_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_19.BackgroundTransparency = 1.000
+TextButton_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_19.BorderSizePixel = 0
+TextButton_19.Size = UDim2.new(0, 184, 0, 24)
+TextButton_19.Font = Enum.Font.SourceSans
+TextButton_19.Text = "  Hit Animation"
+TextButton_19.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_19.TextSize = 14.000
+TextButton_19.TextXAlignment = Enum.TextXAlignment.Left
+
+checkerudeemn_6.Name = "checkerudeemn"
+checkerudeemn_6.Parent = hitmatio
+checkerudeemn_6.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+checkerudeemn_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn_6.BorderSizePixel = 0
+checkerudeemn_6.Position = UDim2.new(0.870000005, 0, 0.208333328, 0)
+checkerudeemn_6.Size = UDim2.new(0, 17, 0, 14)
+checkerudeemn_6.Font = Enum.Font.SourceSans
+checkerudeemn_6.Text = ""
+checkerudeemn_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn_6.TextSize = 14.000
+
+-- Scripts:
+
+local function OMIZF_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	_G.Nitradenag = false
+	local speaker = game.Players.LocalPlayer
+	local localspspeed = 16       ---- asta schimbam sus la cod da?
+	function isNumber(str)
+		if tonumber(str) ~= nil or str == 'inf' then
+			return true
+		end
+	end
+	local RunService = game:GetService("RunService")
+	local HumanModCons = {}
+	script.Parent.MouseButton1Click:Connect(function()
+		if _G.Nitradenag == false then
+			_G.Nitradenag = true
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+			if isNumber(localspspeed) then
+				local Char = speaker.Character or workspace:FindFirstChild(speaker.Name)
+				local Human = Char and Char:FindFirstChildWhichIsA("Humanoid")
+				local function WalkSpeedChange()
+					if Char and Human and _G.Nitradenag then
+						Human.WalkSpeed = localspspeed
+					end
+				end
+				RunService.Heartbeat:Connect(function()
+					WalkSpeedChange()
+				end)
+				HumanModCons.wsLoop = (HumanModCons.wsLoop and HumanModCons.wsLoop:Disconnect() and false) or Human:GetPropertyChangedSignal("WalkSpeed"):Connect(WalkSpeedChange)
+				HumanModCons.wsCA = (HumanModCons.wsCA and HumanModCons.wsCA:Disconnect() and false) or speaker.CharacterAdded:Connect(function(nChar)
+					Char, Human = nChar, nChar:WaitForChild("Humanoid")
+					WalkSpeedChange()
+					HumanModCons.wsLoop = (HumanModCons.wsLoop and HumanModCons.wsLoop:Disconnect() and false) or Human:GetPropertyChangedSignal("WalkSpeed"):Connect(WalkSpeedChange)
+				end)
+			end
+		else
+			_G.Nitradenag = false
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+			HumanModCons.ajLoop = (HumanModCons.ajLoop and HumanModCons.ajLoop:Disconnect() and false) or nil
+			HumanModCons.ajCA = (HumanModCons.ajCA and HumanModCons.ajCA:Disconnect() and false) or nil
+		end
+	end)
+end
+coroutine.wrap(OMIZF_fake_script)()
+local function AZHFKI_fake_script() -- localspds.LocalScript 
+	local script = Instance.new('LocalScript', localspds)
+
+	
+	local slider = {}
+	
+	function slider:New(shared)
+		local dragging = false
+		local uis = game:GetService("UserInputService")
+	
+		shared.Default = math.clamp(shared.Default,shared.Range[1],shared.Range[2])
+	
+		local domain = script.Parent
+		local progress = domain.Progress
+		local interact = domain.Interact
+		local value = domain.Value
+	
+		function shared:set(newValue)
+			shared.Callback(shared.Default)
+			newValue = math.clamp(newValue,shared.Range[1],shared.Range[2])
+			if shared.Suffix then
+				value.Text = tostring(newValue) .. " " .. shared.Suffix
+			else
+				value.Text = tostring(newValue)
+			end
+			local size = domain.AbsoluteSize.X * (shared.Default - shared.Range[1]) / (shared.Range[2] - shared.Range[1])
+			if size < 5 then
+				size = 5
+			elseif size > (domain.AbsolutePosition.X + domain.AbsoluteSize.X) then
+				size = domain.AbsolutePosition.X + domain.AbsoluteSize.X
+			end
+			game:GetService("TweenService"):Create(progress,TweenInfo.new(.3,Enum.EasingStyle.Quint,Enum.EasingDirection.Out),{Size=UDim2.new(0,size,1,0)}):Play()
+		end
+	
+		if shared.Suffix then
+			value.Text = tostring(shared.Default) .. " " .. shared.Suffix
+		else
+			value.Text = tostring(shared.Default)
+		end
+	
+		interact.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = true
+			end
+		end)
+		interact.InputEnded:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = false
+			end
+		end)
+	
+		interact.MouseButton1Down:Connect(function(x)
+			local location = x
+			local ren ren = game:GetService("RunService").Stepped:Connect(function()
+				if dragging then
+					location = uis:GetMouseLocation().X
+					if location < domain.AbsolutePosition.X then
+						location = domain.AbsolutePosition.X
+					elseif location > domain.AbsolutePosition.X + domain.AbsoluteSize.X then
+						location = domain.AbsolutePosition.X + domain.AbsoluteSize.X
+					end
+					game:GetService("TweenService"):Create(progress,TweenInfo.new(.45,Enum.EasingStyle.Quint,Enum.EasingDirection.Out),{Size = UDim2.new(0,location - domain.AbsolutePosition.X,1,0)}):Play()
+					local new = shared.Range[1] + (location - domain.AbsolutePosition.X) / domain.AbsoluteSize.X * (shared.Range[2] - shared.Range[1])
+					new = math.floor(new / shared.Increment + .5) * (shared.Increment * 10000000) / 10000000
+					if shared.Suffix then
+						value.Text = tostring(new) .. " " .. shared.Suffix
+					else
+						value.Text = tostring(new)
+					end
+					shared.Callback(new)
+				else
+					ren:Disconnect()
+					game:GetService("TweenService"):Create(progress,TweenInfo.new(.3,Enum.EasingStyle.Quint,Enum.EasingDirection.Out),{Size = UDim2.new(0,location - domain.AbsolutePosition.X > 5 and location - domain.AbsolutePosition.X or 5,1,0)}):Play()
+				end
+			end)
+		end)
+	end
+	slider:New({
+		Range={16,24},
+		Increment=1,
+		Suffix="/24",
+		Default=0,
+		Callback=function(sliderudelocalspeed)
+			localspspeed = sliderudelocalspeed
+			end
+	})
+	
+end
+coroutine.wrap(AZHFKI_fake_script)()
+local function IEHRFH_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	_G.Nitraden = false
+	local workspace = game:GetService("Workspace")
+	local runService = game:GetService("RunService")
+	local fieldOfViewEnabled = false -- Toggle variable
+	local viewfovlocalplayer = 65   --------asta sus la scripturi da?
+	local defaultFieldOfView = 65
+	local function setFieldOfView()
+		if fieldOfViewEnabled then
+			workspace.CurrentCamera.FieldOfView = viewfovlocalplayer
+		else
+			workspace.CurrentCamera.FieldOfView = defaultFieldOfView
+		end
+	end
+	runService.Heartbeat:Connect(function()
+		setFieldOfView()
+	end)
+	script.Parent.MouseButton1Click:Connect(function()
+		if _G.Nitraden == false then
+			_G.Nitraden = true
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+			fieldOfViewEnabled = true
+		else
+			_G.Nitraden = false
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+			fieldOfViewEnabled = false
+		end
+	end)
+end
+coroutine.wrap(IEHRFH_fake_script)()
+local function FDGSDU_fake_script() -- localfo.LocalScript 
+	local script = Instance.new('LocalScript', localfo)
+
+	
+	local slider = {}
+	
+	function slider:New(shared)
+		local dragging = false
+		local uis = game:GetService("UserInputService")
+	
+		shared.Default = math.clamp(shared.Default,shared.Range[1],shared.Range[2])
+	
+		local domain = script.Parent
+		local progress = domain.Progress
+		local interact = domain.Interact
+		local value = domain.Value
+	
+		function shared:set(newValue)
+			shared.Callback(shared.Default)
+			newValue = math.clamp(newValue,shared.Range[1],shared.Range[2])
+			if shared.Suffix then
+				value.Text = tostring(newValue) .. " " .. shared.Suffix
+			else
+				value.Text = tostring(newValue)
+			end
+			local size = domain.AbsoluteSize.X * (shared.Default - shared.Range[1]) / (shared.Range[2] - shared.Range[1])
+			if size < 5 then
+				size = 5
+			elseif size > (domain.AbsolutePosition.X + domain.AbsoluteSize.X) then
+				size = domain.AbsolutePosition.X + domain.AbsoluteSize.X
+			end
+			game:GetService("TweenService"):Create(progress,TweenInfo.new(.3,Enum.EasingStyle.Quint,Enum.EasingDirection.Out),{Size=UDim2.new(0,size,1,0)}):Play()
+		end
+	
+		if shared.Suffix then
+			value.Text = tostring(shared.Default) .. " " .. shared.Suffix
+		else
+			value.Text = tostring(shared.Default)
+		end
+	
+		interact.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = true
+			end
+		end)
+		interact.InputEnded:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = false
+			end
+		end)
+	
+		interact.MouseButton1Down:Connect(function(x)
+			local location = x
+			local ren ren = game:GetService("RunService").Stepped:Connect(function()
+				if dragging then
+					location = uis:GetMouseLocation().X
+					if location < domain.AbsolutePosition.X then
+						location = domain.AbsolutePosition.X
+					elseif location > domain.AbsolutePosition.X + domain.AbsoluteSize.X then
+						location = domain.AbsolutePosition.X + domain.AbsoluteSize.X
+					end
+					game:GetService("TweenService"):Create(progress,TweenInfo.new(.45,Enum.EasingStyle.Quint,Enum.EasingDirection.Out),{Size = UDim2.new(0,location - domain.AbsolutePosition.X,1,0)}):Play()
+					local new = shared.Range[1] + (location - domain.AbsolutePosition.X) / domain.AbsoluteSize.X * (shared.Range[2] - shared.Range[1])
+					new = math.floor(new / shared.Increment + .5) * (shared.Increment * 10000000) / 10000000
+					if shared.Suffix then
+						value.Text = tostring(new) .. " " .. shared.Suffix
+					else
+						value.Text = tostring(new)
+					end
+					shared.Callback(new)
+				else
+					ren:Disconnect()
+					game:GetService("TweenService"):Create(progress,TweenInfo.new(.3,Enum.EasingStyle.Quint,Enum.EasingDirection.Out),{Size = UDim2.new(0,location - domain.AbsolutePosition.X > 5 and location - domain.AbsolutePosition.X or 5,1,0)}):Play()
+				end
+			end)
+		end)
+	end
+	slider:New({
+		Range={65,120},
+		Increment=1,
+		Suffix="/120",
+		Default=65,
+		Callback=function(sliderumasiidrq)
+			viewfovlocalplayer = sliderumasiidrq
+		end
+	})
+	
+end
+coroutine.wrap(FDGSDU_fake_script)()
+local function DYXD_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	_G.Nitradenaac = false
+	local RunService = game:GetService("RunService")
+	local playa = game.Players.LocalPlayer
+	local Noclipping = nil
+	local Clip = true
+	script.Parent.MouseButton1Click:Connect(function()
+		if _G.Nitradenaac == false then
+			_G.Nitradenaac = true
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+			Clip = false
+			wait(0.1)
+			local function NoclipLoop()
+				if Clip == false and playa.Character ~= nil then
+					for _, child in pairs(playa.Character:GetDescendants()) do
+						if child:IsA("BasePart") and child.CanCollide == true and child.Name ~= floatName then
+							child.CanCollide = false
+						end
+					end
+				end
+			end
+			Noclipping = RunService.Stepped:Connect(NoclipLoop)
+		else
+			_G.Nitradenaac = false
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+			if Noclipping then
+				Noclipping:Disconnect()
+			end
+			playa.Character.Humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+			Clip = true
+		end
+	end)
+end
+coroutine.wrap(DYXD_fake_script)()
+local function IMGPNDP_fake_script() -- TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_9)
+
+	_G.Nitradenag = false
+	local speaker = game.Players.LocalPlayer
+	local localspspeed = 23       ---- asta schimbam sus la cod da?
+	function isNumber(str)
+		if tonumber(str) ~= nil or str == 'inf' then
+			return true
+		end
+	end
+	local RunService = game:GetService("RunService")
+	local HumanModCons = {}
+	script.Parent.MouseButton1Click:Connect(function()
+		if _G.Nitradenag == false then
+			_G.Nitradenag = true
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+			if isNumber(localspspeed) then
+				local Char = speaker.Character or workspace:FindFirstChild(speaker.Name)
+				local Human = Char and Char:FindFirstChildWhichIsA("Humanoid")
+				local function WalkSpeedChange()
+					if Char and Human and _G.Nitradenag then
+						Human.WalkSpeed = localspspeed
+					end
+				end
+				RunService.Heartbeat:Connect(function()
+					WalkSpeedChange()
+				end)
+				HumanModCons.wsLoop = (HumanModCons.wsLoop and HumanModCons.wsLoop:Disconnect() and false) or Human:GetPropertyChangedSignal("WalkSpeed"):Connect(WalkSpeedChange)
+				HumanModCons.wsCA = (HumanModCons.wsCA and HumanModCons.wsCA:Disconnect() and false) or speaker.CharacterAdded:Connect(function(nChar)
+					Char, Human = nChar, nChar:WaitForChild("Humanoid")
+					WalkSpeedChange()
+					HumanModCons.wsLoop = (HumanModCons.wsLoop and HumanModCons.wsLoop:Disconnect() and false) or Human:GetPropertyChangedSignal("WalkSpeed"):Connect(WalkSpeedChange)
+				end)
+			end
+		else
+			_G.Nitradenag = false
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+			HumanModCons.ajLoop = (HumanModCons.ajLoop and HumanModCons.ajLoop:Disconnect() and false) or nil
+			HumanModCons.ajCA = (HumanModCons.ajCA and HumanModCons.ajCA:Disconnect() and false) or nil
+		end
+	end)
+end
+coroutine.wrap(IMGPNDP_fake_script)()
+local function PZKZ_fake_script() -- TextButton_10.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_10)
+
+	local selectia = script.Parent.Parent.Parent.select
+	script.Parent.MouseButton1Click:Connect(function()
+		selectia.Text = "Bloodfruit"
+	end)
+end
+coroutine.wrap(PZKZ_fake_script)()
+local function CBWGF_fake_script() -- TextButton_11.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_11)
+
+	local selectia = script.Parent.Parent.Parent.select
+	script.Parent.MouseButton1Click:Connect(function()
+		selectia.Text = "Lemon"
+	end)
+end
+coroutine.wrap(CBWGF_fake_script)()
+local function GVLZWP_fake_script() -- TextButton_12.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_12)
+
+	local selectia = script.Parent.Parent.Parent.select
+	script.Parent.MouseButton1Click:Connect(function()
+		selectia.Text = "Berry"
+	end)
+end
+coroutine.wrap(GVLZWP_fake_script)()
+local function EITO_fake_script() -- TextButton_13.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_13)
+
+	local selectia = script.Parent.Parent.Parent.select
+	script.Parent.MouseButton1Click:Connect(function()
+		selectia.Text = "Carrot"
+	end)
+end
+coroutine.wrap(EITO_fake_script)()
+local function DULXPWQ_fake_script() -- TextButton_14.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_14)
+
+	local selectia = script.Parent.Parent.Parent.select
+	script.Parent.MouseButton1Click:Connect(function()
+		selectia.Text = "Bluefruit"
+	end)
+end
+coroutine.wrap(DULXPWQ_fake_script)()
+local function NYMQD_fake_script() -- TextButton_15.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_15)
+
+	local selectia = script.Parent.Parent.Parent.select
+	script.Parent.MouseButton1Click:Connect(function()
+		selectia.Text = "Prickly Pear"
+	end)
+end
+coroutine.wrap(NYMQD_fake_script)()
+local function JQMY_fake_script() -- dropdwnpr.LocalScript 
+	local script = Instance.new('LocalScript', dropdwnpr)
+
+	local drop = script.Parent
+	local menu = drop.Menu
+	local selection = drop.select
+	local openx = false
+	selection.MouseButton1Click:Connect(function()
+		if not openx then
+			menu:TweenSize(UDim2.new(1, 0, 6, 0), "Out", "Sine", 0.2, true)
+			for _, button in pairs(menu:GetChildren()) do
+				if button:IsA("TextButton") then
+					button.Visible = true
+					menu.Visible = true
+				end
+			end
+			openx = true
+		else
+			menu:TweenSize(UDim2.new(1, 0, 0, 0), "Out", "Sine", 0.3, true)
+			wait(0.055)
+			for _, button in pairs(menu:GetChildren()) do
+				if button:IsA("TextButton") then
+					button.Visible = false
+				end
+			end
+			openx = false
+		end
+	end)
+	for _, button in pairs(menu:GetChildren()) do
+		if button:IsA("TextButton") then
+			button.MouseEnter:Connect(function()
+				button.BackgroundTransparency = 0.8
+			end)
+			button.MouseLeave:Connect(function()
+				button.BackgroundTransparency = 1
+			end)
+		end
+	end
+end
+coroutine.wrap(JQMY_fake_script)()
+local function ZULY_fake_script() -- Domain.LocalScript 
+	local script = Instance.new('LocalScript', Domain)
+
+	
+	local slider = {}
+	
+	function slider:New(shared)
+		local dragging = false
+		local uis = game:GetService("UserInputService")
+	
+		shared.Default = math.clamp(shared.Default,shared.Range[1],shared.Range[2])
+	
+		local domain = script.Parent
+		local progress = domain.Progress
+		local interact = domain.Interact
+		local value = domain.Value
+	
+		function shared:set(newValue)
+			shared.Callback(shared.Default)
+			newValue = math.clamp(newValue,shared.Range[1],shared.Range[2])
+			if shared.Suffix then
+				value.Text = tostring(newValue) .. " " .. shared.Suffix
+			else
+				value.Text = tostring(newValue)
+			end
+			local size = domain.AbsoluteSize.X * (shared.Default - shared.Range[1]) / (shared.Range[2] - shared.Range[1])
+			if size < 5 then
+				size = 5
+			elseif size > (domain.AbsolutePosition.X + domain.AbsoluteSize.X) then
+				size = domain.AbsolutePosition.X + domain.AbsoluteSize.X
+			end
+			game:GetService("TweenService"):Create(progress,TweenInfo.new(.3,Enum.EasingStyle.Quint,Enum.EasingDirection.Out),{Size=UDim2.new(0,size,1,0)}):Play()
+		end
+	
+		if shared.Suffix then
+			value.Text = tostring(shared.Default) .. " " .. shared.Suffix
+		else
+			value.Text = tostring(shared.Default)
+		end
+	
+		interact.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = true
+			end
+		end)
+		interact.InputEnded:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = false
+			end
+		end)
+	
+		interact.MouseButton1Down:Connect(function(x)
+			local location = x
+			local ren ren = game:GetService("RunService").Stepped:Connect(function()
+				if dragging then
+					location = uis:GetMouseLocation().X
+					if location < domain.AbsolutePosition.X then
+						location = domain.AbsolutePosition.X
+					elseif location > domain.AbsolutePosition.X + domain.AbsoluteSize.X then
+						location = domain.AbsolutePosition.X + domain.AbsoluteSize.X
+					end
+					game:GetService("TweenService"):Create(progress,TweenInfo.new(.45,Enum.EasingStyle.Quint,Enum.EasingDirection.Out),{Size = UDim2.new(0,location - domain.AbsolutePosition.X,1,0)}):Play()
+					local new = shared.Range[1] + (location - domain.AbsolutePosition.X) / domain.AbsoluteSize.X * (shared.Range[2] - shared.Range[1])
+					new = math.floor(new / shared.Increment + .5) * (shared.Increment * 10000000) / 10000000
+					if shared.Suffix then
+						value.Text = tostring(new) .. " " .. shared.Suffix
+					else
+						value.Text = tostring(new)
+					end
+					shared.Callback(new)
+				else
+					ren:Disconnect()
+					game:GetService("TweenService"):Create(progress,TweenInfo.new(.3,Enum.EasingStyle.Quint,Enum.EasingDirection.Out),{Size = UDim2.new(0,location - domain.AbsolutePosition.X > 5 and location - domain.AbsolutePosition.X or 5,1,0)}):Play()
+				end
+			end)
+		end)
+	end
+	slider:New({
+		Range={35,100},
+		Increment=1,
+		Suffix="/100%",
+		Default=70,
+		Callback=function(sliderudehealthplm)
+			
+			end
+	})
+	
+end
+coroutine.wrap(ZULY_fake_script)()
+local function WIRJAMM_fake_script() -- TextButton_16.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_16)
+
+	local selectia = script.Parent.Parent.Parent.select
+	script.Parent.MouseButton1Click:Connect(function()
+		selectia.Text = "Legit Mode"
+	end)
+end
+coroutine.wrap(WIRJAMM_fake_script)()
+local function NWDKM_fake_script() -- TextButton_17.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_17)
+
+	local selectia = script.Parent.Parent.Parent.select
+	script.Parent.MouseButton1Click:Connect(function()
+		selectia.Text = "Rage Mode"
+	end)
+end
+coroutine.wrap(NWDKM_fake_script)()
+local function KUQZRL_fake_script() -- dropdwndoia.LocalScript 
+	local script = Instance.new('LocalScript', dropdwndoia)
+
+	local drop = script.Parent
+	local menu = drop.Menu
+	local selection = drop.select
+	local openx = false
+	selection.MouseButton1Click:Connect(function()
+		if not openx then
+			menu:TweenSize(UDim2.new(1, 0, 2.2, 0), "Out", "Sine", 0.2, true)
+			for _, button in pairs(menu:GetChildren()) do
+				if button:IsA("TextButton") then
+					button.Visible = true
+					menu.Visible = true
+				end
+			end
+			openx = true
+		else
+			menu:TweenSize(UDim2.new(1, 0, 0, 0), "Out", "Sine", 0.3, true)
+			wait(0.055)
+			for _, button in pairs(menu:GetChildren()) do
+				if button:IsA("TextButton") then
+					button.Visible = false
+				end
+			end
+			openx = false
+		end
+	end)
+	for _, button in pairs(menu:GetChildren()) do
+		if button:IsA("TextButton") then
+			button.MouseEnter:Connect(function()
+				button.BackgroundTransparency = 0.8
+			end)
+			button.MouseLeave:Connect(function()
+				button.BackgroundTransparency = 1
+			end)
+		end
+	end
+end
+coroutine.wrap(KUQZRL_fake_script)()
+local function PADOSYD_fake_script() -- TextButton_18.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_18)
+
+	local localPlayer = game.Players.LocalPlayer
+	local ReplicatedStorage = game:GetService("ReplicatedStorage")
+	local Modules = ReplicatedStorage.Modules
+	local PacketModule = require(Modules.Packets)
+	local SwingToolPacket = PacketModule.SwingTool
+	
+	local function getDistance(point1, point2)
+		return (point1 - point2).magnitude
+	end
+	
+	local function findNearestPlayer()
+		local nearestPlayer = nil
+		local minDistance = math.huge
+	
+		for _, player in ipairs(game.Players:GetPlayers()) do
+			if player ~= localPlayer and player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+				local distance = getDistance(player.Character.HumanoidRootPart.Position, localPlayer.Character.HumanoidRootPart.Position)
+				if distance < minDistance then
+					minDistance = distance
+					nearestPlayer = player
+				end
+			end
+		end
+	
+		return nearestPlayer
+	end
+	
+	local isLoopRunning = false
+	function getmanigu(model)
+		return model:GetAttribute("EntityID")
+	end
+	local function performActionOnNearestPlayer()
+		if not isLoopRunning then
+			return
+		end
+		local nearestPlayer = findNearestPlayer()
+		if nearestPlayer then
+			local manigerentity = getmanigu(nearestPlayer)
+			SwingToolPacket.send({manigerentity})
+		end
+		wait(delay)
+		performActionOnNearestPlayer()
+	end
+	
+	local function toggleLoop()
+		isLoopRunning = not isLoopRunning
+		if isLoopRunning then
+			performActionOnNearestPlayer()
+		end
+	end
+	
+	_G.Nitraden = false
+	script.Parent.MouseButton1Click:Connect(function()
+		if _G.Nitraden == false then
+			_G.Nitraden = true
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+			toggleLoop()
+		else
+			_G.Nitraden = false
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+			isLoopRunning = false
+		end
+	end)
+end
+coroutine.wrap(PADOSYD_fake_script)()
+local function UGWIMCO_fake_script() -- TextButton_19.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_19)
+
+	_G.Nitradenan = false
+	local player = game.Players.LocalPlayer
+	local replicatedStorage = game:GetService("ReplicatedStorage")
+	local animation = replicatedStorage.Animations.Slash
+	local isHITAnimationPlaying = false
+	local weapons = {
+		"Rock", "Wood Axe", "Wood Pick", "Club", "Stone Pick",
+		"Stone Axe", "Mace", "Iron Axe", "Iron Pick", "Steel Axe", "Battle Axe", "Steel Pick", "Crystal Stick", "Adurite Pick", "Adurite Axe", "War Hammer",
+		"Crystal Pick", "Crystal Axe", "Magnetite Axe",
+		"Magnetite Pick", "Emerald Blade", "Emerald Pick", "Emerald Axe",
+		"Pink Diamond Axe", "Pink Diamond Pick", "Void Pick", "Void Axe",
+		"God Pick","God Rock", "God Axe"
+	}
+	local function playAnimationslash()
+		local humanoid = player.Character:FindFirstChildOfClass("Humanoid")
+		if humanoid then
+			local animationTrack = humanoid:LoadAnimation(animation)
+			animationTrack:Play()
+			animationTrack.Stopped:Wait()
+		end
+	end
+	local function toggleAnimation(newValue)
+		isHITAnimationPlaying = newValue
+		while isHITAnimationPlaying do
+			local hasWeapon = false
+			local character = player.Character
+			if character then
+				for _, weaponName in ipairs(weapons) do
+					if character.Tools:FindFirstChild(weaponName) then
+						hasWeapon = true
+						break
+					end
+				end
+			end
+	
+			if hasWeapon then
+				playAnimationslash()
+			else
+				wait(0.5)
+			end
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if _G.Nitradenan == false then
+			_G.Nitradenan = true
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+			toggleAnimation(true)
+		else
+			_G.Nitradenan = false
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+			toggleAnimation(false)
+		end
+	end)
+end
+coroutine.wrap(UGWIMCO_fake_script)()
