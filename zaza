@@ -60,6 +60,7 @@ local checkerudeemn_6 = Instance.new("TextLabel")
 
 BOOGABOOGAGOLDFARMV12.Name = "BOOGABOOGA GOLD FARM V1.2"
 BOOGABOOGAGOLDFARMV12.Parent = game.CoreGui
+
 MEINS.Name = "MEINS"
 MEINS.Parent = BOOGABOOGAGOLDFARMV12
 MEINS.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
@@ -582,7 +583,7 @@ checkerudeemn_6.TextSize = 14.000
 
 -- Scripts:
 
-local function HCKBQ_fake_script() -- TextButton.LocalScript 
+local function QXPQGM_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local mai = script.Parent.Parent.Main
@@ -592,8 +593,8 @@ local function HCKBQ_fake_script() -- TextButton.LocalScript
 		xaixa.Visible = false
 	end)
 end
-coroutine.wrap(HCKBQ_fake_script)()
-local function JEKSM_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(QXPQGM_fake_script)()
+local function EMSBOJ_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local mai = script.Parent.Parent.Main
@@ -603,8 +604,8 @@ local function JEKSM_fake_script() -- TextButton_2.LocalScript
 		xaixa.Visible = true
 	end)
 end
-coroutine.wrap(JEKSM_fake_script)()
-local function TKBJ_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(EMSBOJ_fake_script)()
+local function TDNLMD_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	_G.Nitradengf = false
@@ -624,46 +625,37 @@ local function TKBJ_fake_script() -- TextButton_3.LocalScript
 	local walkDistanceThreshold = 60
 	
 	local activeTween = nil
-	local intermediatePosition = Vector3.new(939.394, -5.01347, -1406.94)
-	local targetPosition = nil
-	local movingToIntermediate = true
 	
 	local function calculateDistance(position1, position2)
 		return (position1 - position2).magnitude
 	end
 	
-	local function tweenToPosition(position, callback)
-		local humanoidRootPart = Player.Character and Player.Character:FindFirstChild("HumanoidRootPart")
-		if not humanoidRootPart then return end
-	
-		if activeTween then
-			activeTween:Cancel()
-		end
-		local distance = calculateDistance(humanoidRootPart.Position, position)
-		local tweenInfo = TweenInfo.new(
-			distance / 25, -- Adjust duration based on distance
-			Enum.EasingStyle.Linear,
-			Enum.EasingDirection.Out
-		)
-		local goal = {CFrame = CFrame.new(position)}
-		activeTween = TweenService:Create(humanoidRootPart, tweenInfo, goal)
-		activeTween:Play()
-		activeTween.Completed:Connect(function()
-			activeTween = nil
-			if callback then callback() end
-		end)
-	end
-	
-	local function moveToPosition(position, callback)
+	local function moveToPosition(targetPosition)
 		if FarmingType.Text == "Auto Walk" then
-			Player.Character.Humanoid:MoveTo(position)
-			Player.Character.Humanoid.MoveToFinished:Connect(callback)
+			Player.Character.Humanoid:MoveTo(targetPosition)
 		elseif FarmingType.Text == "Fast Tween" then
-			tweenToPosition(position, callback)
+			local humanoidRootPart = Player.Character:FindFirstChild("HumanoidRootPart")
+			if humanoidRootPart then
+				if activeTween then
+					activeTween:Cancel() -- Cancel any existing tween
+				end
+				local distance = calculateDistance(humanoidRootPart.Position, targetPosition)
+				local tweenInfo = TweenInfo.new(
+					distance / 23, -- Adjust duration based on distance
+					Enum.EasingStyle.Linear,
+					Enum.EasingDirection.Out
+				)
+				local goal = {CFrame = CFrame.new(targetPosition)}
+				activeTween = TweenService:Create(humanoidRootPart, tweenInfo, goal)
+				activeTween:Play()
+				activeTween.Completed:Connect(function()
+					activeTween = nil -- Clear the active tween when completed
+				end)
+			end
 		end
 	end
 	
-	local function findNearestIceChunks(playerPosition)
+	local function FindNearestIceChunks(playerPosition)
 		local resources = Workspace.Resources:GetChildren()
 		local nearestIceChunks = {}
 		for _, iceChunk in ipairs(resources) do
@@ -677,58 +669,43 @@ local function TKBJ_fake_script() -- TextButton_3.LocalScript
 		return nearestIceChunks
 	end
 	
-	local function findGoldNode()
+	local function FindGoldNode()
 		return Workspace:FindFirstChild("Gold Node")
 	end
 	
-	local function getEntityID(model)
+	local function GetEntityID(model)
 		return model:GetAttribute("EntityID")
 	end
 	
-	local function batchSendIceChunks(iceChunk)
-		local entityID = getEntityID(iceChunk)
+	local function toggleIceFarming()
+		iceFarmEnabled = not iceFarmEnabled
+	end
+	
+	local function BatchSendIceChunks(iceChunk)
+		local entityID = GetEntityID(iceChunk)
 		if entityID then
 			miadatmiadatpachetig.send({entityID})
 		end
 	end
 	
-	local function farmResources()
-		local playerPosition = Player.Character and Player.Character:FindFirstChild("HumanoidRootPart") and Player.Character.HumanoidRootPart.Position
-		if not playerPosition then return end
-	
-		local nearestIceChunks = findNearestIceChunks(playerPosition)
-	
-		if #nearestIceChunks > 0 then
-			targetPosition = nearestIceChunks[1].Ice.Position
-			moveToPosition(targetPosition, function()
-				batchSendIceChunks(nearestIceChunks[1])
-				wait(0.1)
-				moveToPosition(intermediatePosition)
-				wait(0.1)
-			end)
-		else
-			local goldNode = findGoldNode()
-			if goldNode then
-				targetPosition = goldNode.Position
-				moveToPosition(targetPosition, function()
-					miadatmiadatpachetig.send({getEntityID(goldNode)})
-					wait(0.1)
-					moveToPosition(intermediatePosition)
-					wait(0.1)
-				end)
-			end
-		end
-	end
-	
 	RunService.Heartbeat:Connect(function()
 		if iceFarmEnabled then
-			if movingToIntermediate and FarmingType.Text == "Fast Tween" then
-				moveToPosition(intermediatePosition, function()
-					movingToIntermediate = false
-					farmResources()
-				end)
-			elseif not movingToIntermediate then
-				farmResources()
+			local playerPosition = Player.Character and Player.Character:FindFirstChild("HumanoidRootPart") and Player.Character.HumanoidRootPart.Position
+			if playerPosition then
+				local nearestIceChunks = FindNearestIceChunks(playerPosition)
+	
+				if #nearestIceChunks > 0 then
+					moveToPosition(nearestIceChunks[1].Ice.Position)
+					BatchSendIceChunks(nearestIceChunks[1])
+					wait(0.1)
+				else
+					local goldNode = FindGoldNode()
+					if goldNode then
+						moveToPosition(goldNode["Gold Node"].Position)
+						miadatmiadatpachetig.send({GetEntityID(goldNode)})
+						wait(0.1)
+					end
+				end
 			end
 		end
 	end)
@@ -738,14 +715,11 @@ local function TKBJ_fake_script() -- TextButton_3.LocalScript
 		local buttonColor = _G.Nitradengf and Color3.fromRGB(255, 170, 0) or Color3.fromRGB(40, 40, 40)
 		script.Parent.Parent.checkerudeemn.BackgroundColor3 = buttonColor
 		iceFarmEnabled = _G.Nitradengf
-		if iceFarmEnabled then
-			movingToIntermediate = true
-		end
 	end)
 	
 end
-coroutine.wrap(TKBJ_fake_script)()
-local function OQCWG_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(TDNLMD_fake_script)()
+local function JGSZLTL_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	_G.Nitradenpg = false
@@ -810,8 +784,8 @@ local function OQCWG_fake_script() -- TextButton_4.LocalScript
 	end)
 	
 end
-coroutine.wrap(OQCWG_fake_script)()
-local function TCFVXQY_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(JGSZLTL_fake_script)()
+local function OLMI_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	_G.Nitradenag = false
@@ -854,8 +828,8 @@ local function TCFVXQY_fake_script() -- TextButton_5.LocalScript
 		end
 	end)
 end
-coroutine.wrap(TCFVXQY_fake_script)()
-local function RIVBA_fake_script() -- TextButton_6.LocalScript 
+coroutine.wrap(OLMI_fake_script)()
+local function AIVUIMI_fake_script() -- TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_6)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -863,8 +837,8 @@ local function RIVBA_fake_script() -- TextButton_6.LocalScript
 		selectia.Text = "Auto Walk"
 	end)
 end
-coroutine.wrap(RIVBA_fake_script)()
-local function KQUJ_fake_script() -- TextButton_7.LocalScript 
+coroutine.wrap(AIVUIMI_fake_script)()
+local function CGCVQ_fake_script() -- TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_7)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -872,8 +846,8 @@ local function KQUJ_fake_script() -- TextButton_7.LocalScript
 		selectia.Text = "Fast Tween"
 	end)
 end
-coroutine.wrap(KQUJ_fake_script)()
-local function RAEGOL_fake_script() -- dropdwntypefarm.LocalScript 
+coroutine.wrap(CGCVQ_fake_script)()
+local function YQPH_fake_script() -- dropdwntypefarm.LocalScript 
 	local script = Instance.new('LocalScript', dropdwntypefarm)
 
 	local drop = script.Parent
@@ -912,11 +886,11 @@ local function RAEGOL_fake_script() -- dropdwntypefarm.LocalScript
 		end
 	end
 end
-coroutine.wrap(RAEGOL_fake_script)()
-local function DIISSF_fake_script() -- TextButton_8.LocalScript 
+coroutine.wrap(YQPH_fake_script)()
+local function OUDWMQZ_fake_script() -- TextButton_8.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_8)
 
-	local HealingHPPrecent = 100
+	local HealingHPPercent = 100
 	local bagamfrucete = script.Parent.Parent.Parent.dropdwnfod.select
 	
 	local player = game:GetService("Players").LocalPlayer
@@ -943,19 +917,19 @@ local function DIISSF_fake_script() -- TextButton_8.LocalScript
 		end
 	end
 	
-	local ishealing = false
-	local healingCoroutine = nil  -- Variable to store the coroutine
+	local isHealing = false
+	local healingCoroutine = nil
 	
 	local function toggleScripthea()
-		ishealing = not ishealing
-		if ishealing then
+		isHealing = not isHealing
+		if isHealing then
 			warn("Dendrite.cc: Automatic Eat enabled.")
 			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(255, 170, 0) -- Set background color to orange
 			healingCoroutine = coroutine.create(function()
-				while ishealing do
+				while isHealing do
 					wait(1)
 					local humanoid = player.Character and player.Character:FindFirstChild("Humanoid")
-					if humanoid and humanoid.Health < humanoid.MaxHealth * (HealingHPPrecent / 100) then
+					if humanoid and humanoid.Health < humanoid.MaxHealth * (HealingHPPercent / 100) then
 						local selectedFruit = bagamfrucete.Text
 						useFruit(selectedFruit)
 					end
@@ -964,19 +938,19 @@ local function DIISSF_fake_script() -- TextButton_8.LocalScript
 			coroutine.resume(healingCoroutine)
 		else
 			if healingCoroutine then
-				ishealing = false
-				coroutine.yield(healingCoroutine)  -- Pause the coroutine
+				coroutine.close(healingCoroutine)  -- Properly close the coroutine
 				healingCoroutine = nil
 			end
 			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(40, 40, 40) -- Set background color to dark gray
+			warn("Dendrite.cc: Automatic Eat disabled.")
 		end
 	end
 	
 	script.Parent.MouseButton1Click:Connect(toggleScripthea)
 	
 end
-coroutine.wrap(DIISSF_fake_script)()
-local function LBJGW_fake_script() -- TextButton_9.LocalScript 
+coroutine.wrap(OUDWMQZ_fake_script)()
+local function OVUYFPE_fake_script() -- TextButton_9.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_9)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -984,8 +958,8 @@ local function LBJGW_fake_script() -- TextButton_9.LocalScript
 		selectia.Text = "Bloodfruit"
 	end)
 end
-coroutine.wrap(LBJGW_fake_script)()
-local function QQWZPCG_fake_script() -- TextButton_10.LocalScript 
+coroutine.wrap(OVUYFPE_fake_script)()
+local function PLQG_fake_script() -- TextButton_10.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_10)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -993,8 +967,8 @@ local function QQWZPCG_fake_script() -- TextButton_10.LocalScript
 		selectia.Text = "Lemon"
 	end)
 end
-coroutine.wrap(QQWZPCG_fake_script)()
-local function QFUP_fake_script() -- TextButton_11.LocalScript 
+coroutine.wrap(PLQG_fake_script)()
+local function WSFJEF_fake_script() -- TextButton_11.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_11)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -1002,8 +976,8 @@ local function QFUP_fake_script() -- TextButton_11.LocalScript
 		selectia.Text = "Berry"
 	end)
 end
-coroutine.wrap(QFUP_fake_script)()
-local function IXPOJI_fake_script() -- TextButton_12.LocalScript 
+coroutine.wrap(WSFJEF_fake_script)()
+local function NCAWNL_fake_script() -- TextButton_12.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_12)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -1011,8 +985,8 @@ local function IXPOJI_fake_script() -- TextButton_12.LocalScript
 		selectia.Text = "Carrot"
 	end)
 end
-coroutine.wrap(IXPOJI_fake_script)()
-local function PQCUHC_fake_script() -- TextButton_13.LocalScript 
+coroutine.wrap(NCAWNL_fake_script)()
+local function KBUYEKU_fake_script() -- TextButton_13.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_13)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -1020,8 +994,8 @@ local function PQCUHC_fake_script() -- TextButton_13.LocalScript
 		selectia.Text = "Bluefruit"
 	end)
 end
-coroutine.wrap(PQCUHC_fake_script)()
-local function HFMY_fake_script() -- TextButton_14.LocalScript 
+coroutine.wrap(KBUYEKU_fake_script)()
+local function QZOH_fake_script() -- TextButton_14.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_14)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -1029,8 +1003,8 @@ local function HFMY_fake_script() -- TextButton_14.LocalScript
 		selectia.Text = "Prickly Pear"
 	end)
 end
-coroutine.wrap(HFMY_fake_script)()
-local function GAVQX_fake_script() -- dropdwnfod.LocalScript 
+coroutine.wrap(QZOH_fake_script)()
+local function VWZENDD_fake_script() -- dropdwnfod.LocalScript 
 	local script = Instance.new('LocalScript', dropdwnfod)
 
 	local drop = script.Parent
@@ -1069,8 +1043,8 @@ local function GAVQX_fake_script() -- dropdwnfod.LocalScript
 		end
 	end
 end
-coroutine.wrap(GAVQX_fake_script)()
-local function LHPMHLH_fake_script() -- TextButton_15.LocalScript 
+coroutine.wrap(VWZENDD_fake_script)()
+local function AEIWY_fake_script() -- TextButton_15.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_15)
 
 	local xa = script.Parent.Parent.Parent.Parent.Parent.Parent
@@ -1078,16 +1052,16 @@ local function LHPMHLH_fake_script() -- TextButton_15.LocalScript
 		xa:Destroy()
 	end)
 end
-coroutine.wrap(LHPMHLH_fake_script)()
-local function BHBTP_fake_script() -- TextButton_16.LocalScript 
+coroutine.wrap(AEIWY_fake_script)()
+local function OZZX_fake_script() -- TextButton_16.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_16)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local http_request = http_request or request or syn.request;local Invite = {['cmd'] = 'INVITE_BROWSER',['args'] = {["code"] = 'G5QrsfFj5Q'},['nonce'] = game:GetService('HttpService'):GenerateGUID(true)}http_request({Url = 'http://127.0.0.1:6463/rpc?v=1',Method = 'POST',Headers = {['Content-Type'] = 'application/json',['Origin'] = 'https://discord.com'},Body = game:GetService('HttpService'):JSONEncode(Invite)})
 	end)
 end
-coroutine.wrap(BHBTP_fake_script)()
-local function INKAL_fake_script() -- TextButton_17.LocalScript 
+coroutine.wrap(OZZX_fake_script)()
+local function QLIIJD_fake_script() -- TextButton_17.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_17)
 
 	_G.FPSBoosterEnabled = false
@@ -1129,8 +1103,8 @@ local function INKAL_fake_script() -- TextButton_17.LocalScript
 	end)
 	
 end
-coroutine.wrap(INKAL_fake_script)()
-local function JLAJ_fake_script() -- TextButton_18.LocalScript 
+coroutine.wrap(QLIIJD_fake_script)()
+local function VQOJGFA_fake_script() -- TextButton_18.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_18)
 
 	_G.Nitradamasafk = false
@@ -1171,8 +1145,8 @@ local function JLAJ_fake_script() -- TextButton_18.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JLAJ_fake_script)()
-local function DVRGMKF_fake_script() -- BOOGABOOGAGOLDFARMV12.LocalScript 
+coroutine.wrap(VQOJGFA_fake_script)()
+local function HWZC_fake_script() -- BOOGABOOGAGOLDFARMV12.LocalScript 
 	local script = Instance.new('LocalScript', BOOGABOOGAGOLDFARMV12)
 
 	------------sexwithmonkeysandmonkeysfucksskizzinasshardcore--likeifuckmichaeverynightcuzshesmywife!-----
@@ -1211,8 +1185,8 @@ local function DVRGMKF_fake_script() -- BOOGABOOGAGOLDFARMV12.LocalScript
 				end
 			end)
 end
-coroutine.wrap(DVRGMKF_fake_script)()
-local function LBZWWYI_fake_script() -- BOOGABOOGAGOLDFARMV12.LocalScript 
+coroutine.wrap(HWZC_fake_script)()
+local function GWDP_fake_script() -- BOOGABOOGAGOLDFARMV12.LocalScript 
 	local script = Instance.new('LocalScript', BOOGABOOGAGOLDFARMV12)
 
 	local frame = script.Parent.MEINS -- Assuming the frame is a child of the script's parent
@@ -1237,4 +1211,4 @@ local function LBZWWYI_fake_script() -- BOOGABOOGAGOLDFARMV12.LocalScript
 	game:GetService("UserInputService").InputBegan:Connect(onKeyDown)
 	
 end
-coroutine.wrap(LBZWWYI_fake_script)()
+coroutine.wrap(GWDP_fake_script)()
