@@ -53,7 +53,7 @@ local checkerudeemn_7 = Instance.new("TextLabel")
 local cnspkp = Instance.new("Frame")
 local TextButton_18 = Instance.new("TextButton")
 local checkerudeemn_8 = Instance.new("TextLabel")
-local cnspkp_2 = Instance.new("Frame")
+local autofel = Instance.new("Frame")
 local TextButton_19 = Instance.new("TextButton")
 local checkerudeemn_9 = Instance.new("TextLabel")
 local dropdwnitmch = Instance.new("Frame")
@@ -595,14 +595,14 @@ checkerudeemn_8.Text = ""
 checkerudeemn_8.TextColor3 = Color3.fromRGB(0, 0, 0)
 checkerudeemn_8.TextSize = 14.000
 
-cnspkp_2.Name = "cnspkp"
-cnspkp_2.Parent = other
-cnspkp_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-cnspkp_2.BorderColor3 = Color3.fromRGB(255, 170, 0)
-cnspkp_2.Position = UDim2.new(0.0322580636, 0, 0.649999976, 0)
-cnspkp_2.Size = UDim2.new(0, 174, 0, 24)
+autofel.Name = "autofel"
+autofel.Parent = other
+autofel.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+autofel.BorderColor3 = Color3.fromRGB(255, 170, 0)
+autofel.Position = UDim2.new(0.0322580636, 0, 0.649999976, 0)
+autofel.Size = UDim2.new(0, 174, 0, 24)
 
-TextButton_19.Parent = cnspkp_2
+TextButton_19.Parent = autofel
 TextButton_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_19.BackgroundTransparency = 1.000
 TextButton_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -616,7 +616,7 @@ TextButton_19.TextSize = 14.000
 TextButton_19.TextXAlignment = Enum.TextXAlignment.Left
 
 checkerudeemn_9.Name = "checkerudeemn"
-checkerudeemn_9.Parent = cnspkp_2
+checkerudeemn_9.Parent = autofel
 checkerudeemn_9.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 checkerudeemn_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
 checkerudeemn_9.BorderSizePixel = 0
@@ -854,7 +854,7 @@ checkerudeemn_11.TextSize = 14.000
 
 -- Scripts:
 
-local function SDANJZA_fake_script() -- TextButton.LocalScript 
+local function LTJJ_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local mai = script.Parent.Parent.Main
@@ -864,8 +864,8 @@ local function SDANJZA_fake_script() -- TextButton.LocalScript
 		xaixa.Visible = false
 	end)
 end
-coroutine.wrap(SDANJZA_fake_script)()
-local function BCQMKZ_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(LTJJ_fake_script)()
+local function RDMCBH_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local mai = script.Parent.Parent.Main
@@ -875,8 +875,8 @@ local function BCQMKZ_fake_script() -- TextButton_2.LocalScript
 		xaixa.Visible = true
 	end)
 end
-coroutine.wrap(BCQMKZ_fake_script)()
-local function ARIYN_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(RDMCBH_fake_script)()
+local function WOYEF_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	_G.Nitradengf = false
@@ -989,8 +989,8 @@ local function ARIYN_fake_script() -- TextButton_3.LocalScript
 	end)
 	
 end
-coroutine.wrap(ARIYN_fake_script)()
-local function JJCS_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(WOYEF_fake_script)()
+local function SZWW_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	_G.Nitradenpg = false
@@ -1055,8 +1055,8 @@ local function JJCS_fake_script() -- TextButton_4.LocalScript
 	end)
 	
 end
-coroutine.wrap(JJCS_fake_script)()
-local function GLLVHFP_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(SZWW_fake_script)()
+local function BUWPN_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	_G.Nitradenag = false
@@ -1099,8 +1099,8 @@ local function GLLVHFP_fake_script() -- TextButton_5.LocalScript
 		end
 	end)
 end
-coroutine.wrap(GLLVHFP_fake_script)()
-local function CYLYQ_fake_script() -- TextButton_6.LocalScript 
+coroutine.wrap(BUWPN_fake_script)()
+local function SSWKA_fake_script() -- TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_6)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -1108,8 +1108,8 @@ local function CYLYQ_fake_script() -- TextButton_6.LocalScript
 		selectia.Text = "Auto Walk"
 	end)
 end
-coroutine.wrap(CYLYQ_fake_script)()
-local function HPDDIL_fake_script() -- TextButton_7.LocalScript 
+coroutine.wrap(SSWKA_fake_script)()
+local function HVQYQ_fake_script() -- TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_7)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -1117,8 +1117,8 @@ local function HPDDIL_fake_script() -- TextButton_7.LocalScript
 		selectia.Text = "Fast Tween"
 	end)
 end
-coroutine.wrap(HPDDIL_fake_script)()
-local function DJREVT_fake_script() -- dropdwntypefarm.LocalScript 
+coroutine.wrap(HVQYQ_fake_script)()
+local function CFGZEY_fake_script() -- dropdwntypefarm.LocalScript 
 	local script = Instance.new('LocalScript', dropdwntypefarm)
 
 	local drop = script.Parent
@@ -1157,8 +1157,8 @@ local function DJREVT_fake_script() -- dropdwntypefarm.LocalScript
 		end
 	end
 end
-coroutine.wrap(DJREVT_fake_script)()
-local function VGLMHK_fake_script() -- TextButton_8.LocalScript 
+coroutine.wrap(CFGZEY_fake_script)()
+local function ABRHS_fake_script() -- TextButton_8.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_8)
 
 	local HealingHPPercent = 100
@@ -1220,8 +1220,8 @@ local function VGLMHK_fake_script() -- TextButton_8.LocalScript
 	script.Parent.MouseButton1Click:Connect(toggleScripthea)
 	
 end
-coroutine.wrap(VGLMHK_fake_script)()
-local function SCEAH_fake_script() -- TextButton_9.LocalScript 
+coroutine.wrap(ABRHS_fake_script)()
+local function BKTVOC_fake_script() -- TextButton_9.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_9)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -1229,8 +1229,8 @@ local function SCEAH_fake_script() -- TextButton_9.LocalScript
 		selectia.Text = "Bloodfruit"
 	end)
 end
-coroutine.wrap(SCEAH_fake_script)()
-local function ZEYW_fake_script() -- TextButton_10.LocalScript 
+coroutine.wrap(BKTVOC_fake_script)()
+local function XYNTYW_fake_script() -- TextButton_10.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_10)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -1238,8 +1238,8 @@ local function ZEYW_fake_script() -- TextButton_10.LocalScript
 		selectia.Text = "Lemon"
 	end)
 end
-coroutine.wrap(ZEYW_fake_script)()
-local function MUYBRFD_fake_script() -- TextButton_11.LocalScript 
+coroutine.wrap(XYNTYW_fake_script)()
+local function MNDTHY_fake_script() -- TextButton_11.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_11)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -1247,8 +1247,8 @@ local function MUYBRFD_fake_script() -- TextButton_11.LocalScript
 		selectia.Text = "Berry"
 	end)
 end
-coroutine.wrap(MUYBRFD_fake_script)()
-local function LASBR_fake_script() -- TextButton_12.LocalScript 
+coroutine.wrap(MNDTHY_fake_script)()
+local function NXSG_fake_script() -- TextButton_12.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_12)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -1256,8 +1256,8 @@ local function LASBR_fake_script() -- TextButton_12.LocalScript
 		selectia.Text = "Carrot"
 	end)
 end
-coroutine.wrap(LASBR_fake_script)()
-local function NQNPDDX_fake_script() -- TextButton_13.LocalScript 
+coroutine.wrap(NXSG_fake_script)()
+local function VXUPDZ_fake_script() -- TextButton_13.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_13)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -1265,8 +1265,8 @@ local function NQNPDDX_fake_script() -- TextButton_13.LocalScript
 		selectia.Text = "Bluefruit"
 	end)
 end
-coroutine.wrap(NQNPDDX_fake_script)()
-local function ULTJI_fake_script() -- TextButton_14.LocalScript 
+coroutine.wrap(VXUPDZ_fake_script)()
+local function LFRQXF_fake_script() -- TextButton_14.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_14)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -1274,8 +1274,8 @@ local function ULTJI_fake_script() -- TextButton_14.LocalScript
 		selectia.Text = "Prickly Pear"
 	end)
 end
-coroutine.wrap(ULTJI_fake_script)()
-local function RNOU_fake_script() -- dropdwnfod.LocalScript 
+coroutine.wrap(LFRQXF_fake_script)()
+local function OTNFYEX_fake_script() -- dropdwnfod.LocalScript 
 	local script = Instance.new('LocalScript', dropdwnfod)
 
 	local drop = script.Parent
@@ -1314,111 +1314,44 @@ local function RNOU_fake_script() -- dropdwnfod.LocalScript
 		end
 	end
 end
-coroutine.wrap(RNOU_fake_script)()
-local function SPIZG_fake_script() -- TextButton_15.LocalScript 
+coroutine.wrap(OTNFYEX_fake_script)()
+local function HSWUSQ_fake_script() -- TextButton_15.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_15)
 
 	_G.Nitradenpgas = false
+	
 	local ReplicatedStorage = game:GetService("ReplicatedStorage")
 	local RunService = game:GetService("RunService")
-	local autoPickupEnabled = false
-	local heartbeatConnection
 	local player = game:GetService("Players").LocalPlayer
 	local inventoryList = player.PlayerGui.MainGui.RightPanel.Inventory.List
 	
-	local function findFruitNumber(fruitName)
+	local function findItemNumber(itemName)
 		if not inventoryList then return nil end
 		for i, item in ipairs(inventoryList:GetChildren()) do
-			if item.Name == fruitName then
+			if item.Name == itemName then
 				return i
 			end
 		end
 		return nil
 	end
-	local function sendPickup(item)
+	
+	local function sendDrop(itemName)
 		local packpackautopk = require(ReplicatedStorage.Modules.Packets)
-		local ComplexSentToPICKxa = packpackautopk.DropBagItem
-		local itemdrop = findFruitNumber("Raw Gold")
-		ComplexSentToPICKxa.send(itemdrop - 1)
-	end
-	
-	local function toggleAutoPickup()
-		autoPickupEnabled = not autoPickupEnabled
-		if autoPickupEnabled then
-			heartbeatConnection = RunService.Heartbeat:Connect(sendPickup(item))
-		else
-			if heartbeatConnection then
-				heartbeatConnection:Disconnect()
-				heartbeatConnection = nil
-			end
-		end
-	end
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		if _G.Nitradenpgas == false then
-			_G.Nitradenpgas = true
-			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
-			toggleAutoPickup()
-		else
-			_G.Nitradenpgas = false
-			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-			autoPickupEnabled = false
-		end
-	end)
-	
-end
-coroutine.wrap(SPIZG_fake_script)()
-local function QOBWJJE_fake_script() -- TextButton_16.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_16)
-
-	_G.Nitradenpgaszza = false
-	local itemtype = script.Parent.Parent.Parent.dropdwnitmch.select
-	local Players = game:GetService("Players")
-	local RunService = game:GetService("RunService")
-	local ReplicatedStorage = game:GetService("ReplicatedStorage")
-	local ItemstoID = {
-		Log = 94,
-		Wood = 1,
-		Leaves = 166,
-		Coal = 178
-	}
-	local itemnamee = itemtype.Text
-	local function interactWithCampfire()
-		for _, v in pairs(game:GetService("Workspace").Deployables:GetChildren()) do
-			if v.Name == "Campfire" then
-				if not v.Board.Billboard.Backdrop.TextLabel == 100 then
-				if (v.PrimaryPart.Position - Players.LocalPlayer.Character.UpperTorso.Position).magnitude < 100 then
-					local packpackautopk = require(ReplicatedStorage.Modules.Packets)
-					local ComplexSentToPICKs = packpackautopk.InteractStructure
-					local args = {
-						entityID = v:GetAttribute("EntityID"),
-							itemID = ItemstoID[itemnamee]
-					}
-					ComplexSentToPICKs.send(args)
-				end
-				end
-			end
-		end
-	end
-	
-	local function toggleScript()
-		_G.Nitradenpgaszza = not _G.Nitradenpgaszza
-	
-		if _G.Nitradenpgaszza then
-			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
-		else
-			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+		local ComplexSentToDrop = packpackautopk.DropBagItem
+		local itemIndex = findItemNumber(itemName)
+		if itemIndex then
+			ComplexSentToDrop.send(itemIndex - 1)
 		end
 	end
 	
 	local heartbeatConnection
 	
-	script.Parent.MouseButton1Click:Connect(function()
-		toggleScript()
+	local function toggleAutoPickup()
+		_G.Nitradenpgas = not _G.Nitradenpgas
 	
-		if _G.Nitradenpgaszza then
+		if _G.Nitradenpgas then
 			heartbeatConnection = RunService.Heartbeat:Connect(function()
-				interactWithCampfire()
+				sendDrop("Raw Gold")
 			end)
 		else
 			if heartbeatConnection then
@@ -1426,11 +1359,85 @@ local function QOBWJJE_fake_script() -- TextButton_16.LocalScript
 				heartbeatConnection = nil
 			end
 		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		toggleAutoPickup()
+	
+		if _G.Nitradenpgas then
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+		else
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+		end
 	end)
 	
 end
-coroutine.wrap(QOBWJJE_fake_script)()
-local function WQHDWKE_fake_script() -- TextButton_17.LocalScript 
+coroutine.wrap(HSWUSQ_fake_script)()
+local function PUCZ_fake_script() -- TextButton_16.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_16)
+
+	_G.Nitradenpgggggasa = false
+	
+	local Player = game:GetService("Players").LocalPlayer
+	local ReplicatedStorage = game:GetService("ReplicatedStorage")
+	local RunService = game:GetService("RunService")
+	local autoPickupEnabled = false
+	local heartbeatConnection
+	
+	local function sendPickup(item)
+		local packpackautopk = require(ReplicatedStorage.Modules.Packets)
+		local ComplexSentToPICK = packpackautopk.Pickup
+		ComplexSentToPICK.send(item:GetAttribute("EntityID"))
+	end
+	
+	local function autoPickupRawGold()
+		if autoPickupEnabled then
+			for _, item in ipairs(game:GetService("Workspace").Items:GetChildren()) do
+				if item.Name == "Gold" and item:IsA("Part") then
+					sendPickup(item)
+				end
+			end
+	
+			for _, deployable in ipairs(game:GetService("Workspace").Deployables:GetChildren()) do
+				local contents = deployable:FindFirstChild("Contents")
+				if contents then
+					for _, item in ipairs(contents:GetChildren()) do
+						if item.Name == "Gold" and item:IsA("Part") then
+							sendPickup(item)
+						end
+					end
+				end
+			end
+		end
+	end
+	
+	local function toggleAutoPickup()
+		autoPickupEnabled = not autoPickupEnabled
+		if autoPickupEnabled then
+			heartbeatConnection = RunService.Heartbeat:Connect(autoPickupRawGold)
+		else
+			if heartbeatConnection then
+				heartbeatConnection:Disconnect()
+				heartbeatConnection = nil
+			end
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if _G.Nitradenpgggggasa == false then
+			_G.Nitradenpgggggasa = true
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+			toggleAutoPickup()
+		else
+			_G.Nitradenpgggggasa = false
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+			autoPickupEnabled = false
+		end
+	end)
+	
+end
+coroutine.wrap(PUCZ_fake_script)()
+local function EWSJNWL_fake_script() -- TextButton_17.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_17)
 
 	_G.Nitradenpgascp = false
@@ -1482,8 +1489,8 @@ local function WQHDWKE_fake_script() -- TextButton_17.LocalScript
 	end)
 	
 end
-coroutine.wrap(WQHDWKE_fake_script)()
-local function HNQS_fake_script() -- TextButton_18.LocalScript 
+coroutine.wrap(EWSJNWL_fake_script)()
+local function HRVDTC_fake_script() -- TextButton_18.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_18)
 
 	_G.Nitradenpgggggas = false
@@ -1546,72 +1553,73 @@ local function HNQS_fake_script() -- TextButton_18.LocalScript
 	end)
 	
 end
-coroutine.wrap(HNQS_fake_script)()
-local function VMNUBHN_fake_script() -- TextButton_19.LocalScript 
+coroutine.wrap(HRVDTC_fake_script)()
+local function NCDD_fake_script() -- TextButton_19.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_19)
 
-	_G.Nitradenpgggggas = false
+	_G.Nitradenpgaszza = false
 	
-	local Player = game:GetService("Players").LocalPlayer
-	local ReplicatedStorage = game:GetService("ReplicatedStorage")
+	local itemtype = script.Parent.Parent.Parent.dropdwnitmch.select
+	local Players = game:GetService("Players")
 	local RunService = game:GetService("RunService")
-	local autoPickupEnabled = false
-	local heartbeatConnection
+	local ReplicatedStorage = game:GetService("ReplicatedStorage")
 	
-	local function sendPickup(item)
-		local packpackautopk = require(ReplicatedStorage.Modules.Packets)
-		local ComplexSentToPICK = packpackautopk.Pickup
-		ComplexSentToPICK.send(item:GetAttribute("EntityID"))
-	end
+	local ItemstoID = {
+		Log = 94,
+		Wood = 1,
+		Leaves = 166,
+		Coal = 178
+	}
 	
-	local function autoPickupRawGold()
-		if autoPickupEnabled then
-			for _, item in ipairs(game:GetService("Workspace").Items:GetChildren()) do
-				if item.Name == "Coin2" and item:IsA("Part") then
-					sendPickup(item)
-				end
-			end
-	
-			for _, deployable in ipairs(game:GetService("Workspace").Deployables:GetChildren()) do
-				local contents = deployable:FindFirstChild("Contents")
-				if contents then
-					for _, item in ipairs(contents:GetChildren()) do
-						if item.Name == "Coin2" and item:IsA("Part") then
-							sendPickup(item)
-						end
+	local function interactWithCampfire()
+		local itemnamee = itemtype.Text
+		for _, v in pairs(game:GetService("Workspace").Deployables:GetChildren()) do
+			if v.Name == "Campfire" then
+				if v.Board.Billboard.Backdrop.TextLabel ~= "100" then
+					if (v.PrimaryPart.Position - Players.LocalPlayer.Character.UpperTorso.Position).magnitude < 100 then
+						local packpackautopk = require(ReplicatedStorage.Modules.Packets)
+						local ComplexSentToPICKs = packpackautopk.InteractStructure
+						local args = {
+							entityID = v:GetAttribute("EntityID"),
+							itemID = ItemstoID[itemnamee]
+						}
+						ComplexSentToPICKs.send(args)
 					end
 				end
 			end
 		end
 	end
 	
-	local function toggleAutoPickup()
-		autoPickupEnabled = not autoPickupEnabled
-		if autoPickupEnabled then
-			heartbeatConnection = RunService.Heartbeat:Connect(autoPickupRawGold)
+	local function toggleScript()
+		_G.Nitradenpgaszza = not _G.Nitradenpgaszza
+	
+		if _G.Nitradenpgaszza then
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+		else
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+		end
+	end
+	
+	local heartbeatConnection
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		toggleScript()
+	
+		if _G.Nitradenpgaszza then
+			heartbeatConnection = RunService.Heartbeat:Connect(function()
+				interactWithCampfire()
+			end)
 		else
 			if heartbeatConnection then
 				heartbeatConnection:Disconnect()
 				heartbeatConnection = nil
 			end
 		end
-	end
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		if _G.Nitradenpgggggas == false then
-			_G.Nitradenpgggggas = true
-			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
-			toggleAutoPickup()
-		else
-			_G.Nitradenpgggggas = false
-			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-			autoPickupEnabled = false
-		end
 	end)
 	
 end
-coroutine.wrap(VMNUBHN_fake_script)()
-local function ATHB_fake_script() -- TextButton_20.LocalScript 
+coroutine.wrap(NCDD_fake_script)()
+local function QUOM_fake_script() -- TextButton_20.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_20)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -1619,8 +1627,8 @@ local function ATHB_fake_script() -- TextButton_20.LocalScript
 		selectia.Text = "Wood"
 	end)
 end
-coroutine.wrap(ATHB_fake_script)()
-local function CMXCQ_fake_script() -- TextButton_21.LocalScript 
+coroutine.wrap(QUOM_fake_script)()
+local function DZLV_fake_script() -- TextButton_21.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_21)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -1628,8 +1636,8 @@ local function CMXCQ_fake_script() -- TextButton_21.LocalScript
 		selectia.Text = "Log"
 	end)
 end
-coroutine.wrap(CMXCQ_fake_script)()
-local function VRHIUO_fake_script() -- TextButton_22.LocalScript 
+coroutine.wrap(DZLV_fake_script)()
+local function YNYVVUZ_fake_script() -- TextButton_22.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_22)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -1637,8 +1645,8 @@ local function VRHIUO_fake_script() -- TextButton_22.LocalScript
 		selectia.Text = "Leaves"
 	end)
 end
-coroutine.wrap(VRHIUO_fake_script)()
-local function IRTJKS_fake_script() -- TextButton_23.LocalScript 
+coroutine.wrap(YNYVVUZ_fake_script)()
+local function GJVDP_fake_script() -- TextButton_23.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_23)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -1646,8 +1654,8 @@ local function IRTJKS_fake_script() -- TextButton_23.LocalScript
 		selectia.Text = "Coal"
 	end)
 end
-coroutine.wrap(IRTJKS_fake_script)()
-local function VDFO_fake_script() -- dropdwnitmch.LocalScript 
+coroutine.wrap(GJVDP_fake_script)()
+local function IOKAD_fake_script() -- dropdwnitmch.LocalScript 
 	local script = Instance.new('LocalScript', dropdwnitmch)
 
 	local drop = script.Parent
@@ -1686,8 +1694,8 @@ local function VDFO_fake_script() -- dropdwnitmch.LocalScript
 		end
 	end
 end
-coroutine.wrap(VDFO_fake_script)()
-local function JLVPOEA_fake_script() -- TextButton_24.LocalScript 
+coroutine.wrap(IOKAD_fake_script)()
+local function ZIGDK_fake_script() -- TextButton_24.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_24)
 
 	local xa = script.Parent.Parent.Parent.Parent.Parent.Parent
@@ -1695,16 +1703,16 @@ local function JLVPOEA_fake_script() -- TextButton_24.LocalScript
 		xa:Destroy()
 	end)
 end
-coroutine.wrap(JLVPOEA_fake_script)()
-local function KGVDSVF_fake_script() -- TextButton_25.LocalScript 
+coroutine.wrap(ZIGDK_fake_script)()
+local function EJZUBV_fake_script() -- TextButton_25.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_25)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local http_request = http_request or request or syn.request;local Invite = {['cmd'] = 'INVITE_BROWSER',['args'] = {["code"] = 'G5QrsfFj5Q'},['nonce'] = game:GetService('HttpService'):GenerateGUID(true)}http_request({Url = 'http://127.0.0.1:6463/rpc?v=1',Method = 'POST',Headers = {['Content-Type'] = 'application/json',['Origin'] = 'https://discord.com'},Body = game:GetService('HttpService'):JSONEncode(Invite)})
 	end)
 end
-coroutine.wrap(KGVDSVF_fake_script)()
-local function LWJQ_fake_script() -- TextButton_26.LocalScript 
+coroutine.wrap(EJZUBV_fake_script)()
+local function EQND_fake_script() -- TextButton_26.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_26)
 
 	_G.FPSBoosterEnabled = false
@@ -1746,8 +1754,8 @@ local function LWJQ_fake_script() -- TextButton_26.LocalScript
 	end)
 	
 end
-coroutine.wrap(LWJQ_fake_script)()
-local function OKJOKH_fake_script() -- TextButton_27.LocalScript 
+coroutine.wrap(EQND_fake_script)()
+local function SGOOHDL_fake_script() -- TextButton_27.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_27)
 
 	_G.Nitradamasafk = false
@@ -1788,8 +1796,8 @@ local function OKJOKH_fake_script() -- TextButton_27.LocalScript
 		end
 	end)
 end
-coroutine.wrap(OKJOKH_fake_script)()
-local function RRYRZPW_fake_script() -- BOOGABOOGAGOLDFARMV12.LocalScript 
+coroutine.wrap(SGOOHDL_fake_script)()
+local function PIRUYWY_fake_script() -- BOOGABOOGAGOLDFARMV12.LocalScript 
 	local script = Instance.new('LocalScript', BOOGABOOGAGOLDFARMV12)
 
 	------------sexwithmonkeysandmonkeysfucksskizzinasshardcore--likeifuckmichaeverynightcuzshesmywife!-----
@@ -1828,8 +1836,8 @@ local function RRYRZPW_fake_script() -- BOOGABOOGAGOLDFARMV12.LocalScript
 				end
 			end)
 end
-coroutine.wrap(RRYRZPW_fake_script)()
-local function RQTF_fake_script() -- BOOGABOOGAGOLDFARMV12.LocalScript 
+coroutine.wrap(PIRUYWY_fake_script)()
+local function CWKMG_fake_script() -- BOOGABOOGAGOLDFARMV12.LocalScript 
 	local script = Instance.new('LocalScript', BOOGABOOGAGOLDFARMV12)
 
 	local frame = script.Parent.MEINS -- Assuming the frame is a child of the script's parent
@@ -1854,4 +1862,4 @@ local function RQTF_fake_script() -- BOOGABOOGAGOLDFARMV12.LocalScript
 	game:GetService("UserInputService").InputBegan:Connect(onKeyDown)
 	
 end
-coroutine.wrap(RQTF_fake_script)()
+coroutine.wrap(CWKMG_fake_script)()
