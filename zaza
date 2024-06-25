@@ -1,1 +1,1857 @@
-sdadas
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local BOOGABOOGAGOLDFARMV12 = Instance.new("ScreenGui")
+local MEINS = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local Main = Instance.new("Frame")
+local GF = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local gldfr = Instance.new("Frame")
+local TextButton_3 = Instance.new("TextButton")
+local checkerudeemn = Instance.new("TextLabel")
+local aetpik = Instance.new("Frame")
+local TextButton_4 = Instance.new("TextButton")
+local checkerudeemn_2 = Instance.new("TextLabel")
+local aet = Instance.new("Frame")
+local TextButton_5 = Instance.new("TextButton")
+local checkerudeemn_3 = Instance.new("TextLabel")
+local dropdwntypefarm = Instance.new("Frame")
+local select = Instance.new("TextButton")
+local Menu = Instance.new("Frame")
+local UIListLayout = Instance.new("UIListLayout")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local other = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local autoeat = Instance.new("Frame")
+local TextButton_8 = Instance.new("TextButton")
+local checkerudeemn_4 = Instance.new("TextLabel")
+local dropdwnfod = Instance.new("Frame")
+local select_2 = Instance.new("TextButton")
+local Menu_2 = Instance.new("Frame")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local TextButton_9 = Instance.new("TextButton")
+local TextButton_10 = Instance.new("TextButton")
+local TextButton_11 = Instance.new("TextButton")
+local TextButton_12 = Instance.new("TextButton")
+local TextButton_13 = Instance.new("TextButton")
+local TextButton_14 = Instance.new("TextButton")
+local dpwg = Instance.new("Frame")
+local TextButton_15 = Instance.new("TextButton")
+local checkerudeemn_5 = Instance.new("TextLabel")
+local pupgld = Instance.new("Frame")
+local TextButton_16 = Instance.new("TextButton")
+local checkerudeemn_6 = Instance.new("TextLabel")
+local cprs = Instance.new("Frame")
+local TextButton_17 = Instance.new("TextButton")
+local checkerudeemn_7 = Instance.new("TextLabel")
+local cnspkp = Instance.new("Frame")
+local TextButton_18 = Instance.new("TextButton")
+local checkerudeemn_8 = Instance.new("TextLabel")
+local cnspkp_2 = Instance.new("Frame")
+local TextButton_19 = Instance.new("TextButton")
+local checkerudeemn_9 = Instance.new("TextLabel")
+local dropdwnitmch = Instance.new("Frame")
+local select_3 = Instance.new("TextButton")
+local Menu_3 = Instance.new("Frame")
+local UIListLayout_3 = Instance.new("UIListLayout")
+local TextButton_20 = Instance.new("TextButton")
+local TextButton_21 = Instance.new("TextButton")
+local TextButton_22 = Instance.new("TextButton")
+local TextButton_23 = Instance.new("TextButton")
+local TextLabel_4 = Instance.new("TextLabel")
+local set = Instance.new("Frame")
+local sat = Instance.new("Frame")
+local TextLabel_5 = Instance.new("TextLabel")
+local sadsadsadsad = Instance.new("Frame")
+local TextButton_24 = Instance.new("TextButton")
+local Discasdfsad = Instance.new("Frame")
+local TextButton_25 = Instance.new("TextButton")
+local boosat = Instance.new("Frame")
+local TextButton_26 = Instance.new("TextButton")
+local checkerudeemn_10 = Instance.new("TextLabel")
+local antafk = Instance.new("Frame")
+local TextButton_27 = Instance.new("TextButton")
+local checkerudeemn_11 = Instance.new("TextLabel")
+
+--Properties:
+
+BOOGABOOGAGOLDFARMV12.Name = "BOOGABOOGA GOLD FARM V1.2"
+BOOGABOOGAGOLDFARMV12.Parent = game.CoreGui
+
+MEINS.Name = "MEINS"
+MEINS.Parent = BOOGABOOGAGOLDFARMV12
+MEINS.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+MEINS.BorderColor3 = Color3.fromRGB(255, 170, 0)
+MEINS.Position = UDim2.new(0.532907367, 0, 0.158313274, 0)
+MEINS.Size = UDim2.new(0, 391, 0, 402)
+
+TextLabel.Parent = MEINS
+TextLabel.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel.BorderColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel.Size = UDim2.new(0, 391, 0, 30)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = " Dendrite.cc"
+TextLabel.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel.TextSize = 20.000
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+TextButton.Parent = MEINS
+TextButton.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextButton.BorderColor3 = Color3.fromRGB(255, 170, 0)
+TextButton.Position = UDim2.new(0.0153452689, 0, 0.0895522386, 0)
+TextButton.Size = UDim2.new(0, 96, 0, 22)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Main"
+TextButton.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton.TextSize = 18.000
+
+TextButton_2.Parent = MEINS
+TextButton_2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_2.BorderColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_2.Position = UDim2.new(0.286445022, 0, 0.0895522386, 0)
+TextButton_2.Size = UDim2.new(0, 96, 0, 22)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Settings"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_2.TextSize = 18.000
+
+Main.Name = "Main"
+Main.Parent = MEINS
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.BackgroundTransparency = 1.000
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0, 0, 0.144278601, 0)
+Main.Size = UDim2.new(0, 391, 0, 344)
+
+GF.Name = "GF"
+GF.Parent = Main
+GF.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+GF.BorderColor3 = Color3.fromRGB(255, 170, 0)
+GF.Position = UDim2.new(0.0153452689, 0, 0.0290697683, 0)
+GF.Size = UDim2.new(0, 186, 0, 328)
+
+TextLabel_2.Parent = GF
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Size = UDim2.new(0, 186, 0, 28)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Gold Farm"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_2.TextSize = 17.000
+
+gldfr.Name = "gldfr"
+gldfr.Parent = GF
+gldfr.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+gldfr.BorderColor3 = Color3.fromRGB(255, 170, 0)
+gldfr.Position = UDim2.new(0.0322580636, 0, 0.103658535, 0)
+gldfr.Size = UDim2.new(0, 174, 0, 24)
+
+TextButton_3.Parent = gldfr
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BackgroundTransparency = 1.000
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Size = UDim2.new(0, 174, 0, 24)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "  Enable Gold Farm"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_3.TextSize = 14.000
+TextButton_3.TextXAlignment = Enum.TextXAlignment.Left
+
+checkerudeemn.Name = "checkerudeemn"
+checkerudeemn.Parent = gldfr
+checkerudeemn.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+checkerudeemn.BorderColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn.BorderSizePixel = 0
+checkerudeemn.Position = UDim2.new(0.870000005, 0, 0.208333328, 0)
+checkerudeemn.Size = UDim2.new(0, 17, 0, 14)
+checkerudeemn.Font = Enum.Font.SourceSans
+checkerudeemn.Text = ""
+checkerudeemn.TextColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn.TextSize = 14.000
+
+aetpik.Name = "aetpik"
+aetpik.Parent = GF
+aetpik.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+aetpik.BorderColor3 = Color3.fromRGB(255, 170, 0)
+aetpik.Position = UDim2.new(0.0322580636, 0, 0.198170736, 0)
+aetpik.Size = UDim2.new(0, 174, 0, 24)
+
+TextButton_4.Parent = aetpik
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.BackgroundTransparency = 1.000
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Size = UDim2.new(0, 174, 0, 24)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "  Enable Raw Gold Pick Up"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_4.TextSize = 14.000
+TextButton_4.TextXAlignment = Enum.TextXAlignment.Left
+
+checkerudeemn_2.Name = "checkerudeemn"
+checkerudeemn_2.Parent = aetpik
+checkerudeemn_2.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+checkerudeemn_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn_2.BorderSizePixel = 0
+checkerudeemn_2.Position = UDim2.new(0.870000005, 0, 0.208333328, 0)
+checkerudeemn_2.Size = UDim2.new(0, 17, 0, 14)
+checkerudeemn_2.Font = Enum.Font.SourceSans
+checkerudeemn_2.Text = ""
+checkerudeemn_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn_2.TextSize = 14.000
+
+aet.Name = "aet"
+aet.Parent = GF
+aet.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+aet.BorderColor3 = Color3.fromRGB(255, 170, 0)
+aet.Position = UDim2.new(0.0322580636, 0, 0.292682916, 0)
+aet.Size = UDim2.new(0, 174, 0, 24)
+
+TextButton_5.Parent = aet
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.BackgroundTransparency = 1.000
+TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Size = UDim2.new(0, 174, 0, 24)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "  Enable Speed Boost"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_5.TextSize = 14.000
+TextButton_5.TextXAlignment = Enum.TextXAlignment.Left
+
+checkerudeemn_3.Name = "checkerudeemn"
+checkerudeemn_3.Parent = aet
+checkerudeemn_3.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+checkerudeemn_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn_3.BorderSizePixel = 0
+checkerudeemn_3.Position = UDim2.new(0.870000005, 0, 0.208333328, 0)
+checkerudeemn_3.Size = UDim2.new(0, 17, 0, 14)
+checkerudeemn_3.Font = Enum.Font.SourceSans
+checkerudeemn_3.Text = ""
+checkerudeemn_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn_3.TextSize = 14.000
+
+dropdwntypefarm.Name = "dropdwntypefarm"
+dropdwntypefarm.Parent = GF
+dropdwntypefarm.Active = true
+dropdwntypefarm.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+dropdwntypefarm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+dropdwntypefarm.BorderSizePixel = 0
+dropdwntypefarm.Position = UDim2.new(0.0270474348, 0, 0.389999986, 0)
+dropdwntypefarm.Size = UDim2.new(0, 174, 0, 24)
+
+select.Name = "select"
+select.Parent = dropdwntypefarm
+select.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+select.BorderColor3 = Color3.fromRGB(255, 170, 0)
+select.Position = UDim2.new(0.00401148293, 0, -0.0266672764, 0)
+select.Size = UDim2.new(0, 174, 0, 24)
+select.Font = Enum.Font.SourceSans
+select.Text = "Auto Walk"
+select.TextColor3 = Color3.fromRGB(255, 170, 0)
+select.TextSize = 20.000
+
+Menu.Name = "Menu"
+Menu.Parent = dropdwntypefarm
+Menu.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Menu.BorderColor3 = Color3.fromRGB(255, 170, 0)
+Menu.Position = UDim2.new(-1.05233028e-06, 0, 1, 0)
+Menu.Size = UDim2.new(0, 174, 0, 52)
+Menu.Visible = false
+Menu.ZIndex = 2
+
+UIListLayout.Parent = Menu
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+
+TextButton_6.Parent = Menu
+TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.BackgroundTransparency = 1.000
+TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(0, 0, 0.141891897, 0)
+TextButton_6.Size = UDim2.new(0, 174, 0, 24)
+TextButton_6.Visible = false
+TextButton_6.ZIndex = 2
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "Auto Walk"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_6.TextSize = 20.000
+
+TextButton_7.Parent = Menu
+TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.BackgroundTransparency = 1.000
+TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BorderSizePixel = 0
+TextButton_7.Position = UDim2.new(0, 0, 0.141891897, 0)
+TextButton_7.Size = UDim2.new(0, 174, 0, 24)
+TextButton_7.Visible = false
+TextButton_7.ZIndex = 2
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "Fast Tween"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_7.TextSize = 20.000
+
+other.Name = "other"
+other.Parent = Main
+other.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+other.BorderColor3 = Color3.fromRGB(255, 170, 0)
+other.Position = UDim2.new(0.508951426, 0, 0.0290697683, 0)
+other.Size = UDim2.new(0, 186, 0, 328)
+
+TextLabel_3.Parent = other
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Size = UDim2.new(0, 186, 0, 28)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Other Features"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_3.TextSize = 17.000
+
+autoeat.Name = "autoeat"
+autoeat.Parent = other
+autoeat.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+autoeat.BorderColor3 = Color3.fromRGB(255, 170, 0)
+autoeat.Position = UDim2.new(0.0322580636, 0, 0.103658535, 0)
+autoeat.Size = UDim2.new(0, 174, 0, 24)
+
+TextButton_8.Parent = autoeat
+TextButton_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.BackgroundTransparency = 1.000
+TextButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.BorderSizePixel = 0
+TextButton_8.Position = UDim2.new(-0.0114942528, 0, 0, 0)
+TextButton_8.Size = UDim2.new(0, 174, 0, 24)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "  Enable Auto Eat"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_8.TextSize = 14.000
+TextButton_8.TextXAlignment = Enum.TextXAlignment.Left
+
+checkerudeemn_4.Name = "checkerudeemn"
+checkerudeemn_4.Parent = autoeat
+checkerudeemn_4.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+checkerudeemn_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn_4.BorderSizePixel = 0
+checkerudeemn_4.Position = UDim2.new(0.870000005, 0, 0.208333328, 0)
+checkerudeemn_4.Size = UDim2.new(0, 17, 0, 14)
+checkerudeemn_4.Font = Enum.Font.SourceSans
+checkerudeemn_4.Text = ""
+checkerudeemn_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn_4.TextSize = 14.000
+
+dropdwnfod.Name = "dropdwnfod"
+dropdwnfod.Parent = other
+dropdwnfod.Active = true
+dropdwnfod.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+dropdwnfod.BorderColor3 = Color3.fromRGB(0, 0, 0)
+dropdwnfod.BorderSizePixel = 0
+dropdwnfod.Position = UDim2.new(0.0270474348, 0, 0.200617909, 0)
+dropdwnfod.Size = UDim2.new(0, 174, 0, 24)
+
+select_2.Name = "select"
+select_2.Parent = dropdwnfod
+select_2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+select_2.BorderColor3 = Color3.fromRGB(255, 170, 0)
+select_2.Position = UDim2.new(0.00103233603, 0, -0.0359954834, 0)
+select_2.Size = UDim2.new(0, 174, 0, 24)
+select_2.Font = Enum.Font.SourceSans
+select_2.Text = "Bloodfruit"
+select_2.TextColor3 = Color3.fromRGB(255, 170, 0)
+select_2.TextSize = 20.000
+
+Menu_2.Name = "Menu"
+Menu_2.Parent = dropdwnfod
+Menu_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Menu_2.BorderColor3 = Color3.fromRGB(255, 170, 0)
+Menu_2.Position = UDim2.new(-1.05233028e-06, 0, 1, 0)
+Menu_2.Size = UDim2.new(0, 174, 0, 145)
+Menu_2.Visible = false
+Menu_2.ZIndex = 2
+
+UIListLayout_2.Parent = Menu_2
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+
+TextButton_9.Parent = Menu_2
+TextButton_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.BackgroundTransparency = 1.000
+TextButton_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.BorderSizePixel = 0
+TextButton_9.Position = UDim2.new(0, 0, 0.141891897, 0)
+TextButton_9.Size = UDim2.new(0, 174, 0, 24)
+TextButton_9.Visible = false
+TextButton_9.ZIndex = 2
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.Text = "Bloodfruit"
+TextButton_9.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_9.TextSize = 20.000
+
+TextButton_10.Parent = Menu_2
+TextButton_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.BackgroundTransparency = 1.000
+TextButton_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.BorderSizePixel = 0
+TextButton_10.Position = UDim2.new(0, 0, 0.141891897, 0)
+TextButton_10.Size = UDim2.new(0, 174, 0, 24)
+TextButton_10.Visible = false
+TextButton_10.ZIndex = 2
+TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.Text = "Lemon"
+TextButton_10.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_10.TextSize = 20.000
+
+TextButton_11.Parent = Menu_2
+TextButton_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_11.BackgroundTransparency = 1.000
+TextButton_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_11.BorderSizePixel = 0
+TextButton_11.Position = UDim2.new(0, 0, 0.141891897, 0)
+TextButton_11.Size = UDim2.new(0, 174, 0, 24)
+TextButton_11.Visible = false
+TextButton_11.ZIndex = 2
+TextButton_11.Font = Enum.Font.SourceSans
+TextButton_11.Text = "Berry"
+TextButton_11.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_11.TextSize = 20.000
+
+TextButton_12.Parent = Menu_2
+TextButton_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_12.BackgroundTransparency = 1.000
+TextButton_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_12.BorderSizePixel = 0
+TextButton_12.Position = UDim2.new(0, 0, 0.141891897, 0)
+TextButton_12.Size = UDim2.new(0, 174, 0, 24)
+TextButton_12.Visible = false
+TextButton_12.ZIndex = 2
+TextButton_12.Font = Enum.Font.SourceSans
+TextButton_12.Text = "Carrot"
+TextButton_12.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_12.TextSize = 20.000
+
+TextButton_13.Parent = Menu_2
+TextButton_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_13.BackgroundTransparency = 1.000
+TextButton_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_13.BorderSizePixel = 0
+TextButton_13.Position = UDim2.new(0, 0, 0.141891897, 0)
+TextButton_13.Size = UDim2.new(0, 174, 0, 24)
+TextButton_13.Visible = false
+TextButton_13.ZIndex = 2
+TextButton_13.Font = Enum.Font.SourceSans
+TextButton_13.Text = "Bluefruit"
+TextButton_13.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_13.TextSize = 20.000
+
+TextButton_14.Parent = Menu_2
+TextButton_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_14.BackgroundTransparency = 1.000
+TextButton_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_14.BorderSizePixel = 0
+TextButton_14.Position = UDim2.new(0, 0, 0.141891897, 0)
+TextButton_14.Size = UDim2.new(0, 174, 0, 24)
+TextButton_14.Visible = false
+TextButton_14.ZIndex = 2
+TextButton_14.Font = Enum.Font.SourceSans
+TextButton_14.Text = "Prickly Pear"
+TextButton_14.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_14.TextSize = 20.000
+
+dpwg.Name = "dpwg"
+dpwg.Parent = other
+dpwg.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+dpwg.BorderColor3 = Color3.fromRGB(255, 170, 0)
+dpwg.Position = UDim2.new(0.0322580636, 0, 0.289999992, 0)
+dpwg.Size = UDim2.new(0, 174, 0, 24)
+
+TextButton_15.Parent = dpwg
+TextButton_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_15.BackgroundTransparency = 1.000
+TextButton_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_15.BorderSizePixel = 0
+TextButton_15.Position = UDim2.new(-0.0114942528, 0, 0, 0)
+TextButton_15.Size = UDim2.new(0, 174, 0, 24)
+TextButton_15.Font = Enum.Font.SourceSans
+TextButton_15.Text = "  Enable Raw Gold Drop"
+TextButton_15.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_15.TextSize = 14.000
+TextButton_15.TextXAlignment = Enum.TextXAlignment.Left
+
+checkerudeemn_5.Name = "checkerudeemn"
+checkerudeemn_5.Parent = dpwg
+checkerudeemn_5.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+checkerudeemn_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn_5.BorderSizePixel = 0
+checkerudeemn_5.Position = UDim2.new(0.870000005, 0, 0.208333328, 0)
+checkerudeemn_5.Size = UDim2.new(0, 17, 0, 14)
+checkerudeemn_5.Font = Enum.Font.SourceSans
+checkerudeemn_5.Text = ""
+checkerudeemn_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn_5.TextSize = 14.000
+
+pupgld.Name = "pupgld"
+pupgld.Parent = other
+pupgld.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+pupgld.BorderColor3 = Color3.fromRGB(255, 170, 0)
+pupgld.Position = UDim2.new(0.0322580636, 0, 0.379999995, 0)
+pupgld.Size = UDim2.new(0, 174, 0, 24)
+
+TextButton_16.Parent = pupgld
+TextButton_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_16.BackgroundTransparency = 1.000
+TextButton_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_16.BorderSizePixel = 0
+TextButton_16.Position = UDim2.new(-0.0114942528, 0, 0, 0)
+TextButton_16.Size = UDim2.new(0, 174, 0, 24)
+TextButton_16.Font = Enum.Font.SourceSans
+TextButton_16.Text = "  Enable Gold Pickup"
+TextButton_16.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_16.TextSize = 14.000
+TextButton_16.TextXAlignment = Enum.TextXAlignment.Left
+
+checkerudeemn_6.Name = "checkerudeemn"
+checkerudeemn_6.Parent = pupgld
+checkerudeemn_6.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+checkerudeemn_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn_6.BorderSizePixel = 0
+checkerudeemn_6.Position = UDim2.new(0.870000005, 0, 0.208333328, 0)
+checkerudeemn_6.Size = UDim2.new(0, 17, 0, 14)
+checkerudeemn_6.Font = Enum.Font.SourceSans
+checkerudeemn_6.Text = ""
+checkerudeemn_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn_6.TextSize = 14.000
+
+cprs.Name = "cprs"
+cprs.Parent = other
+cprs.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+cprs.BorderColor3 = Color3.fromRGB(255, 170, 0)
+cprs.Position = UDim2.new(0.0322580636, 0, 0.469999999, 0)
+cprs.Size = UDim2.new(0, 174, 0, 24)
+
+TextButton_17.Parent = cprs
+TextButton_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_17.BackgroundTransparency = 1.000
+TextButton_17.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_17.BorderSizePixel = 0
+TextButton_17.Position = UDim2.new(-0.0114942528, 0, 0, 0)
+TextButton_17.Size = UDim2.new(0, 174, 0, 24)
+TextButton_17.Font = Enum.Font.SourceSans
+TextButton_17.Text = "  Enable Coin Press"
+TextButton_17.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_17.TextSize = 14.000
+TextButton_17.TextXAlignment = Enum.TextXAlignment.Left
+
+checkerudeemn_7.Name = "checkerudeemn"
+checkerudeemn_7.Parent = cprs
+checkerudeemn_7.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+checkerudeemn_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn_7.BorderSizePixel = 0
+checkerudeemn_7.Position = UDim2.new(0.870000005, 0, 0.208333328, 0)
+checkerudeemn_7.Size = UDim2.new(0, 17, 0, 14)
+checkerudeemn_7.Font = Enum.Font.SourceSans
+checkerudeemn_7.Text = ""
+checkerudeemn_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn_7.TextSize = 14.000
+
+cnspkp.Name = "cnspkp"
+cnspkp.Parent = other
+cnspkp.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+cnspkp.BorderColor3 = Color3.fromRGB(255, 170, 0)
+cnspkp.Position = UDim2.new(0.0322580636, 0, 0.560000002, 0)
+cnspkp.Size = UDim2.new(0, 174, 0, 24)
+
+TextButton_18.Parent = cnspkp
+TextButton_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_18.BackgroundTransparency = 1.000
+TextButton_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_18.BorderSizePixel = 0
+TextButton_18.Position = UDim2.new(-0.0114942528, 0, 0, 0)
+TextButton_18.Size = UDim2.new(0, 174, 0, 24)
+TextButton_18.Font = Enum.Font.SourceSans
+TextButton_18.Text = "  Enable  Coins Pickup"
+TextButton_18.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_18.TextSize = 14.000
+TextButton_18.TextXAlignment = Enum.TextXAlignment.Left
+
+checkerudeemn_8.Name = "checkerudeemn"
+checkerudeemn_8.Parent = cnspkp
+checkerudeemn_8.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+checkerudeemn_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn_8.BorderSizePixel = 0
+checkerudeemn_8.Position = UDim2.new(0.870000005, 0, 0.208333328, 0)
+checkerudeemn_8.Size = UDim2.new(0, 17, 0, 14)
+checkerudeemn_8.Font = Enum.Font.SourceSans
+checkerudeemn_8.Text = ""
+checkerudeemn_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn_8.TextSize = 14.000
+
+cnspkp_2.Name = "cnspkp"
+cnspkp_2.Parent = other
+cnspkp_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+cnspkp_2.BorderColor3 = Color3.fromRGB(255, 170, 0)
+cnspkp_2.Position = UDim2.new(0.0322580636, 0, 0.649999976, 0)
+cnspkp_2.Size = UDim2.new(0, 174, 0, 24)
+
+TextButton_19.Parent = cnspkp_2
+TextButton_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_19.BackgroundTransparency = 1.000
+TextButton_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_19.BorderSizePixel = 0
+TextButton_19.Position = UDim2.new(-0.0114942528, 0, 0, 0)
+TextButton_19.Size = UDim2.new(0, 174, 0, 24)
+TextButton_19.Font = Enum.Font.SourceSans
+TextButton_19.Text = "  Enable  Auto Max Fuel"
+TextButton_19.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_19.TextSize = 14.000
+TextButton_19.TextXAlignment = Enum.TextXAlignment.Left
+
+checkerudeemn_9.Name = "checkerudeemn"
+checkerudeemn_9.Parent = cnspkp_2
+checkerudeemn_9.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+checkerudeemn_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn_9.BorderSizePixel = 0
+checkerudeemn_9.Position = UDim2.new(0.870000005, 0, 0.208333328, 0)
+checkerudeemn_9.Size = UDim2.new(0, 17, 0, 14)
+checkerudeemn_9.Font = Enum.Font.SourceSans
+checkerudeemn_9.Text = ""
+checkerudeemn_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn_9.TextSize = 14.000
+
+dropdwnitmch.Name = "dropdwnitmch"
+dropdwnitmch.Parent = other
+dropdwnitmch.Active = true
+dropdwnitmch.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+dropdwnitmch.BorderColor3 = Color3.fromRGB(0, 0, 0)
+dropdwnitmch.BorderSizePixel = 0
+dropdwnitmch.Position = UDim2.new(0.0270474348, 0, 0.74000001, 0)
+dropdwnitmch.Size = UDim2.new(0, 174, 0, 24)
+
+select_3.Name = "select"
+select_3.Parent = dropdwnitmch
+select_3.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+select_3.BorderColor3 = Color3.fromRGB(255, 170, 0)
+select_3.Position = UDim2.new(0.00103233603, 0, -0.0359954834, 0)
+select_3.Size = UDim2.new(0, 174, 0, 24)
+select_3.Font = Enum.Font.SourceSans
+select_3.Text = "Wood"
+select_3.TextColor3 = Color3.fromRGB(255, 170, 0)
+select_3.TextSize = 20.000
+
+Menu_3.Name = "Menu"
+Menu_3.Parent = dropdwnitmch
+Menu_3.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Menu_3.BorderColor3 = Color3.fromRGB(255, 170, 0)
+Menu_3.Position = UDim2.new(-1.05233028e-06, 0, 1.00000131, 0)
+Menu_3.Size = UDim2.new(0, 174, 0, 98)
+Menu_3.Visible = false
+Menu_3.ZIndex = 2
+
+UIListLayout_3.Parent = Menu_3
+UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+
+TextButton_20.Parent = Menu_3
+TextButton_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_20.BackgroundTransparency = 1.000
+TextButton_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_20.BorderSizePixel = 0
+TextButton_20.Position = UDim2.new(0, 0, 0.141891897, 0)
+TextButton_20.Size = UDim2.new(0, 174, 0, 24)
+TextButton_20.Visible = false
+TextButton_20.ZIndex = 2
+TextButton_20.Font = Enum.Font.SourceSans
+TextButton_20.Text = "Wood"
+TextButton_20.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_20.TextSize = 20.000
+
+TextButton_21.Parent = Menu_3
+TextButton_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_21.BackgroundTransparency = 1.000
+TextButton_21.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_21.BorderSizePixel = 0
+TextButton_21.Position = UDim2.new(0, 0, 0.141891897, 0)
+TextButton_21.Size = UDim2.new(0, 174, 0, 24)
+TextButton_21.Visible = false
+TextButton_21.ZIndex = 2
+TextButton_21.Font = Enum.Font.SourceSans
+TextButton_21.Text = "Log"
+TextButton_21.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_21.TextSize = 20.000
+
+TextButton_22.Parent = Menu_3
+TextButton_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_22.BackgroundTransparency = 1.000
+TextButton_22.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_22.BorderSizePixel = 0
+TextButton_22.Position = UDim2.new(0, 0, 0.141891897, 0)
+TextButton_22.Size = UDim2.new(0, 174, 0, 24)
+TextButton_22.Visible = false
+TextButton_22.ZIndex = 2
+TextButton_22.Font = Enum.Font.SourceSans
+TextButton_22.Text = "Leaves"
+TextButton_22.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_22.TextSize = 20.000
+
+TextButton_23.Parent = Menu_3
+TextButton_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_23.BackgroundTransparency = 1.000
+TextButton_23.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_23.BorderSizePixel = 0
+TextButton_23.Position = UDim2.new(0, 0, 0.141891897, 0)
+TextButton_23.Size = UDim2.new(0, 174, 0, 24)
+TextButton_23.Visible = false
+TextButton_23.ZIndex = 2
+TextButton_23.Font = Enum.Font.SourceSans
+TextButton_23.Text = "Coal"
+TextButton_23.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_23.TextSize = 20.000
+
+TextLabel_4.Parent = MEINS
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_4.BorderColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.713554978, 0, 0, 0)
+TextLabel_4.Size = UDim2.new(0, 112, 0, 30)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Gold Farm V1.2"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_4.TextSize = 20.000
+
+set.Name = "set"
+set.Parent = MEINS
+set.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+set.BackgroundTransparency = 1.000
+set.BorderColor3 = Color3.fromRGB(0, 0, 0)
+set.BorderSizePixel = 0
+set.Position = UDim2.new(0, 0, 0.144278601, 0)
+set.Size = UDim2.new(0, 391, 0, 344)
+set.Visible = false
+
+sat.Name = "sat"
+sat.Parent = set
+sat.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+sat.BorderColor3 = Color3.fromRGB(255, 170, 0)
+sat.Position = UDim2.new(0.0153452689, 0, 0.0290697683, 0)
+sat.Size = UDim2.new(0, 186, 0, 328)
+
+TextLabel_5.Parent = sat
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Size = UDim2.new(0, 186, 0, 28)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Settings"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_5.TextSize = 17.000
+
+sadsadsadsad.Name = "sadsadsadsad"
+sadsadsadsad.Parent = sat
+sadsadsadsad.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+sadsadsadsad.BorderColor3 = Color3.fromRGB(255, 170, 0)
+sadsadsadsad.Position = UDim2.new(0.0322580636, 0, 0.103658535, 0)
+sadsadsadsad.Size = UDim2.new(0, 174, 0, 24)
+
+TextButton_24.Parent = sadsadsadsad
+TextButton_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_24.BackgroundTransparency = 1.000
+TextButton_24.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_24.BorderSizePixel = 0
+TextButton_24.Size = UDim2.new(0, 174, 0, 24)
+TextButton_24.Font = Enum.Font.SourceSans
+TextButton_24.Text = "Quit"
+TextButton_24.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_24.TextSize = 14.000
+
+Discasdfsad.Name = "Discasdf sad"
+Discasdfsad.Parent = sat
+Discasdfsad.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Discasdfsad.BorderColor3 = Color3.fromRGB(255, 170, 0)
+Discasdfsad.Position = UDim2.new(0.0322580636, 0, 0.198170736, 0)
+Discasdfsad.Size = UDim2.new(0, 174, 0, 24)
+
+TextButton_25.Parent = Discasdfsad
+TextButton_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_25.BackgroundTransparency = 1.000
+TextButton_25.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_25.BorderSizePixel = 0
+TextButton_25.Size = UDim2.new(0, 174, 0, 24)
+TextButton_25.Font = Enum.Font.SourceSans
+TextButton_25.Text = "Discord"
+TextButton_25.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_25.TextSize = 14.000
+
+boosat.Name = "boosat"
+boosat.Parent = sat
+boosat.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+boosat.BorderColor3 = Color3.fromRGB(255, 170, 0)
+boosat.Position = UDim2.new(0.0322580636, 0, 0.292682916, 0)
+boosat.Size = UDim2.new(0, 174, 0, 24)
+
+TextButton_26.Parent = boosat
+TextButton_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_26.BackgroundTransparency = 1.000
+TextButton_26.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_26.BorderSizePixel = 0
+TextButton_26.Size = UDim2.new(0, 174, 0, 24)
+TextButton_26.Font = Enum.Font.SourceSans
+TextButton_26.Text = "  Fps Boost"
+TextButton_26.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_26.TextSize = 14.000
+TextButton_26.TextXAlignment = Enum.TextXAlignment.Left
+
+checkerudeemn_10.Name = "checkerudeemn"
+checkerudeemn_10.Parent = boosat
+checkerudeemn_10.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+checkerudeemn_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn_10.BorderSizePixel = 0
+checkerudeemn_10.Position = UDim2.new(0.870000005, 0, 0.208333328, 0)
+checkerudeemn_10.Size = UDim2.new(0, 17, 0, 14)
+checkerudeemn_10.Font = Enum.Font.SourceSans
+checkerudeemn_10.Text = ""
+checkerudeemn_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn_10.TextSize = 14.000
+
+antafk.Name = "antafk"
+antafk.Parent = sat
+antafk.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+antafk.BorderColor3 = Color3.fromRGB(255, 170, 0)
+antafk.Position = UDim2.new(0.0320000015, 0, 0.386999995, 0)
+antafk.Size = UDim2.new(0, 174, 0, 24)
+
+TextButton_27.Parent = antafk
+TextButton_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_27.BackgroundTransparency = 1.000
+TextButton_27.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_27.BorderSizePixel = 0
+TextButton_27.Size = UDim2.new(0, 174, 0, 24)
+TextButton_27.Font = Enum.Font.SourceSans
+TextButton_27.Text = "  Anti-Afk"
+TextButton_27.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_27.TextSize = 14.000
+TextButton_27.TextXAlignment = Enum.TextXAlignment.Left
+
+checkerudeemn_11.Name = "checkerudeemn"
+checkerudeemn_11.Parent = antafk
+checkerudeemn_11.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+checkerudeemn_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn_11.BorderSizePixel = 0
+checkerudeemn_11.Position = UDim2.new(0.870000005, 0, 0.208333328, 0)
+checkerudeemn_11.Size = UDim2.new(0, 17, 0, 14)
+checkerudeemn_11.Font = Enum.Font.SourceSans
+checkerudeemn_11.Text = ""
+checkerudeemn_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+checkerudeemn_11.TextSize = 14.000
+
+-- Scripts:
+
+local function SDANJZA_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local mai = script.Parent.Parent.Main
+	local xaixa = script.Parent.Parent.set
+	script.Parent.MouseButton1Click:Connect(function()
+		mai.Visible = true
+		xaixa.Visible = false
+	end)
+end
+coroutine.wrap(SDANJZA_fake_script)()
+local function BCQMKZ_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	local mai = script.Parent.Parent.Main
+	local xaixa = script.Parent.Parent.set
+	script.Parent.MouseButton1Click:Connect(function()
+		mai.Visible = false
+		xaixa.Visible = true
+	end)
+end
+coroutine.wrap(BCQMKZ_fake_script)()
+local function ARIYN_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	_G.Nitradengf = false
+	local FarmingType = script.Parent.Parent.Parent.dropdwntypefarm.select
+	
+	local Player = game.Players.LocalPlayer
+	local Workspace = game:GetService("Workspace")
+	local ReplicatedStorage = game:GetService("ReplicatedStorage")
+	local RunService = game:GetService("RunService")
+	local TweenService = game:GetService("TweenService")
+	
+	local PacketModuleIcegold = require(ReplicatedStorage.Modules.Packets)
+	local miadatmiadatpachetig = PacketModuleIcegold.SwingTool
+	
+	local iceFarmEnabled = false
+	local searchRange = 60
+	local walkDistanceThreshold = 60
+	
+	local activeTween = nil
+	
+	local function calculateDistance(position1, position2)
+		return (position1 - position2).magnitude
+	end
+	
+	local function moveToPosition(targetPosition)
+		if FarmingType.Text == "Auto Walk" then
+			Player.Character.Humanoid:MoveTo(targetPosition)
+		elseif FarmingType.Text == "Fast Tween" then
+			local humanoidRootPart = Player.Character:FindFirstChild("HumanoidRootPart")
+			if humanoidRootPart then
+				if activeTween then
+					activeTween:Cancel() -- Cancel any existing tween
+				end
+				local distance = calculateDistance(humanoidRootPart.Position, targetPosition)
+				local tweenInfo = TweenInfo.new(
+					distance / 23, -- Adjust duration based on distance
+					Enum.EasingStyle.Linear,
+					Enum.EasingDirection.Out
+				)
+				local goal = {CFrame = CFrame.new(targetPosition)}
+				activeTween = TweenService:Create(humanoidRootPart, tweenInfo, goal)
+				activeTween:Play()
+				activeTween.Completed:Connect(function()
+					activeTween = nil -- Clear the active tween when completed
+				end)
+			end
+		end
+	end
+	
+	local function FindNearestIceChunks(playerPosition)
+		local resources = Workspace.Resources:GetChildren()
+		local nearestIceChunks = {}
+		for _, iceChunk in ipairs(resources) do
+			if iceChunk.Name == "Ice Chunk" and iceChunk:FindFirstChild("Ice") then
+				local distance = calculateDistance(playerPosition, iceChunk.Ice.Position)
+				if distance <= searchRange and distance <= walkDistanceThreshold then
+					table.insert(nearestIceChunks, iceChunk)
+				end
+			end
+		end
+		return nearestIceChunks
+	end
+	
+	local function FindGoldNode()
+		return Workspace:FindFirstChild("Gold Node")
+	end
+	
+	local function GetEntityID(model)
+		return model:GetAttribute("EntityID")
+	end
+	
+	local function toggleIceFarming()
+		iceFarmEnabled = not iceFarmEnabled
+	end
+	
+	local function BatchSendIceChunks(iceChunk)
+		local entityID = GetEntityID(iceChunk)
+		if entityID then
+			miadatmiadatpachetig.send({entityID})
+		end
+	end
+	
+	RunService.Heartbeat:Connect(function()
+		if iceFarmEnabled then
+			local playerPosition = Player.Character and Player.Character:FindFirstChild("HumanoidRootPart") and Player.Character.HumanoidRootPart.Position
+			if playerPosition then
+				local nearestIceChunks = FindNearestIceChunks(playerPosition)
+	
+				if #nearestIceChunks > 0 then
+					moveToPosition(nearestIceChunks[1].Ice.Position)
+					BatchSendIceChunks(nearestIceChunks[1])
+					wait(0.1)
+				else
+					local goldNode = FindGoldNode()
+					if goldNode then
+						moveToPosition(goldNode["Gold Node"].Position)
+						miadatmiadatpachetig.send({GetEntityID(goldNode)})
+						wait(0.1)
+					end
+				end
+			end
+		end
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		_G.Nitradengf = not _G.Nitradengf
+		local buttonColor = _G.Nitradengf and Color3.fromRGB(255, 170, 0) or Color3.fromRGB(40, 40, 40)
+		script.Parent.Parent.checkerudeemn.BackgroundColor3 = buttonColor
+		iceFarmEnabled = _G.Nitradengf
+	end)
+	
+end
+coroutine.wrap(ARIYN_fake_script)()
+local function JJCS_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	_G.Nitradenpg = false
+	
+	local Player = game:GetService("Players").LocalPlayer
+	local ReplicatedStorage = game:GetService("ReplicatedStorage")
+	local RunService = game:GetService("RunService")
+	local autoPickupEnabled = false
+	local heartbeatConnection
+	
+	local function sendPickup(item)
+		local packpackautopk = require(ReplicatedStorage.Modules.Packets)
+		local ComplexSentToPICK = packpackautopk.Pickup
+		ComplexSentToPICK.send(item:GetAttribute("EntityID"))
+	end
+	
+	local function autoPickupRawGold()
+		if autoPickupEnabled then
+			-- Pickup Raw Gold from Workspace.Items
+			for _, item in ipairs(game:GetService("Workspace").Items:GetChildren()) do
+				if item.Name == "Raw Gold" and item:IsA("MeshPart") then
+					sendPickup(item)
+				end
+			end
+	
+			-- Pickup Raw Gold from Deployables.Chest.Contents
+			for _, deployable in ipairs(game:GetService("Workspace").Deployables:GetChildren()) do
+				local contents = deployable:FindFirstChild("Contents")
+				if contents then
+					for _, item in ipairs(contents:GetChildren()) do
+						if item.Name == "Raw Gold" and item:IsA("MeshPart") then
+							sendPickup(item)
+						end
+					end
+				end
+			end
+		end
+	end
+	
+	local function toggleAutoPickup()
+		autoPickupEnabled = not autoPickupEnabled
+		if autoPickupEnabled then
+			heartbeatConnection = RunService.Heartbeat:Connect(autoPickupRawGold)
+		else
+			if heartbeatConnection then
+				heartbeatConnection:Disconnect()
+				heartbeatConnection = nil
+			end
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if _G.Nitradenpg == false then
+			_G.Nitradenpg = true
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+			toggleAutoPickup()
+		else
+			_G.Nitradenpg = false
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+			autoPickupEnabled = false
+		end
+	end)
+	
+end
+coroutine.wrap(JJCS_fake_script)()
+local function GLLVHFP_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	_G.Nitradenag = false
+	local speaker = game.Players.LocalPlayer
+	local localspspeed = 23       ---- asta schimbam sus la cod da?
+	function isNumber(str)
+		if tonumber(str) ~= nil or str == 'inf' then
+			return true
+		end
+	end
+	local RunService = game:GetService("RunService")
+	local HumanModCons = {}
+	script.Parent.MouseButton1Click:Connect(function()
+		if _G.Nitradenag == false then
+			_G.Nitradenag = true
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+			if isNumber(localspspeed) then
+				local Char = speaker.Character or workspace:FindFirstChild(speaker.Name)
+				local Human = Char and Char:FindFirstChildWhichIsA("Humanoid")
+				local function WalkSpeedChange()
+					if Char and Human and _G.Nitradenag then
+						Human.WalkSpeed = localspspeed
+					end
+				end
+				RunService.Heartbeat:Connect(function()
+					WalkSpeedChange()
+				end)
+				HumanModCons.wsLoop = (HumanModCons.wsLoop and HumanModCons.wsLoop:Disconnect() and false) or Human:GetPropertyChangedSignal("WalkSpeed"):Connect(WalkSpeedChange)
+				HumanModCons.wsCA = (HumanModCons.wsCA and HumanModCons.wsCA:Disconnect() and false) or speaker.CharacterAdded:Connect(function(nChar)
+					Char, Human = nChar, nChar:WaitForChild("Humanoid")
+					WalkSpeedChange()
+					HumanModCons.wsLoop = (HumanModCons.wsLoop and HumanModCons.wsLoop:Disconnect() and false) or Human:GetPropertyChangedSignal("WalkSpeed"):Connect(WalkSpeedChange)
+				end)
+			end
+		else
+			_G.Nitradenag = false
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+			HumanModCons.ajLoop = (HumanModCons.ajLoop and HumanModCons.ajLoop:Disconnect() and false) or nil
+			HumanModCons.ajCA = (HumanModCons.ajCA and HumanModCons.ajCA:Disconnect() and false) or nil
+		end
+	end)
+end
+coroutine.wrap(GLLVHFP_fake_script)()
+local function CYLYQ_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	local selectia = script.Parent.Parent.Parent.select
+	script.Parent.MouseButton1Click:Connect(function()
+		selectia.Text = "Auto Walk"
+	end)
+end
+coroutine.wrap(CYLYQ_fake_script)()
+local function HPDDIL_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	local selectia = script.Parent.Parent.Parent.select
+	script.Parent.MouseButton1Click:Connect(function()
+		selectia.Text = "Fast Tween"
+	end)
+end
+coroutine.wrap(HPDDIL_fake_script)()
+local function DJREVT_fake_script() -- dropdwntypefarm.LocalScript 
+	local script = Instance.new('LocalScript', dropdwntypefarm)
+
+	local drop = script.Parent
+	local menu = drop.Menu
+	local selection = drop.select
+	local openx = false
+	selection.MouseButton1Click:Connect(function()
+		if not openx then
+			menu:TweenSize(UDim2.new(1, 0, 2, 0), "Out", "Sine", 0.2, true)
+			for _, button in pairs(menu:GetChildren()) do
+				if button:IsA("TextButton") then
+					button.Visible = true
+					menu.Visible = true
+				end
+			end
+			openx = true
+		else
+			menu:TweenSize(UDim2.new(1, 0, 0, 0), "Out", "Sine", 0.3, true)
+			wait(0.055)
+			for _, button in pairs(menu:GetChildren()) do
+				if button:IsA("TextButton") then
+					button.Visible = false
+				end
+			end
+			openx = false
+		end
+	end)
+	for _, button in pairs(menu:GetChildren()) do
+		if button:IsA("TextButton") then
+			button.MouseEnter:Connect(function()
+				button.BackgroundTransparency = 0.8
+			end)
+			button.MouseLeave:Connect(function()
+				button.BackgroundTransparency = 1
+			end)
+		end
+	end
+end
+coroutine.wrap(DJREVT_fake_script)()
+local function VGLMHK_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	local HealingHPPercent = 100
+	local bagamfrucete = script.Parent.Parent.Parent.dropdwnfod.select
+	
+	local player = game:GetService("Players").LocalPlayer
+	local inventoryList = player.PlayerGui.MainGui.RightPanel.Inventory.List
+	local xxxxxxxpacketsenttoadminmoderator2dot0 = require(game:GetService("ReplicatedStorage").Modules.Packets)
+	local HEALINGSUPPORTINCOMMING = xxxxxxxpacketsenttoadminmoderator2dot0.UseBagItem
+	
+	local function findFruitNumber(fruitName)
+		if not inventoryList then return nil end
+		for i, item in ipairs(inventoryList:GetChildren()) do
+			if item.Name == fruitName then
+				return i
+			end
+		end
+		return nil
+	end
+	
+	local function useFruit(fruitName)
+		local fruitNumber = findFruitNumber(fruitName)
+		if fruitNumber then
+			HEALINGSUPPORTINCOMMING.send(fruitNumber - 1)
+		else
+			warn("Dendrite.cc: " .. fruitName .. " not found in the inventory list.")
+		end
+	end
+	
+	local isHealing = false
+	local healingCoroutine = nil
+	
+	local function toggleScripthea()
+		isHealing = not isHealing
+		if isHealing then
+			warn("Dendrite.cc: Automatic Eat enabled.")
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(255, 170, 0) -- Set background color to orange
+			healingCoroutine = coroutine.create(function()
+				while isHealing do
+					wait(1)
+					local humanoid = player.Character and player.Character:FindFirstChild("Humanoid")
+					if humanoid and humanoid.Health < humanoid.MaxHealth * (HealingHPPercent / 100) then
+						local selectedFruit = bagamfrucete.Text
+						useFruit(selectedFruit)
+					end
+				end
+			end)
+			coroutine.resume(healingCoroutine)
+		else
+			if healingCoroutine then
+				coroutine.close(healingCoroutine)  -- Properly close the coroutine
+				healingCoroutine = nil
+			end
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(40, 40, 40) -- Set background color to dark gray
+			warn("Dendrite.cc: Automatic Eat disabled.")
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(toggleScripthea)
+	
+end
+coroutine.wrap(VGLMHK_fake_script)()
+local function SCEAH_fake_script() -- TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_9)
+
+	local selectia = script.Parent.Parent.Parent.select
+	script.Parent.MouseButton1Click:Connect(function()
+		selectia.Text = "Bloodfruit"
+	end)
+end
+coroutine.wrap(SCEAH_fake_script)()
+local function ZEYW_fake_script() -- TextButton_10.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_10)
+
+	local selectia = script.Parent.Parent.Parent.select
+	script.Parent.MouseButton1Click:Connect(function()
+		selectia.Text = "Lemon"
+	end)
+end
+coroutine.wrap(ZEYW_fake_script)()
+local function MUYBRFD_fake_script() -- TextButton_11.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_11)
+
+	local selectia = script.Parent.Parent.Parent.select
+	script.Parent.MouseButton1Click:Connect(function()
+		selectia.Text = "Berry"
+	end)
+end
+coroutine.wrap(MUYBRFD_fake_script)()
+local function LASBR_fake_script() -- TextButton_12.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_12)
+
+	local selectia = script.Parent.Parent.Parent.select
+	script.Parent.MouseButton1Click:Connect(function()
+		selectia.Text = "Carrot"
+	end)
+end
+coroutine.wrap(LASBR_fake_script)()
+local function NQNPDDX_fake_script() -- TextButton_13.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_13)
+
+	local selectia = script.Parent.Parent.Parent.select
+	script.Parent.MouseButton1Click:Connect(function()
+		selectia.Text = "Bluefruit"
+	end)
+end
+coroutine.wrap(NQNPDDX_fake_script)()
+local function ULTJI_fake_script() -- TextButton_14.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_14)
+
+	local selectia = script.Parent.Parent.Parent.select
+	script.Parent.MouseButton1Click:Connect(function()
+		selectia.Text = "Prickly Pear"
+	end)
+end
+coroutine.wrap(ULTJI_fake_script)()
+local function RNOU_fake_script() -- dropdwnfod.LocalScript 
+	local script = Instance.new('LocalScript', dropdwnfod)
+
+	local drop = script.Parent
+	local menu = drop.Menu
+	local selection = drop.select
+	local openx = false
+	selection.MouseButton1Click:Connect(function()
+		if not openx then
+			menu:TweenSize(UDim2.new(1, 0, 6, 0), "Out", "Sine", 0.2, true)
+			for _, button in pairs(menu:GetChildren()) do
+				if button:IsA("TextButton") then
+					button.Visible = true
+					menu.Visible = true
+				end
+			end
+			openx = true
+		else
+			menu:TweenSize(UDim2.new(1, 0, 0, 0), "Out", "Sine", 0.3, true)
+			wait(0.055)
+			for _, button in pairs(menu:GetChildren()) do
+				if button:IsA("TextButton") then
+					button.Visible = false
+				end
+			end
+			openx = false
+		end
+	end)
+	for _, button in pairs(menu:GetChildren()) do
+		if button:IsA("TextButton") then
+			button.MouseEnter:Connect(function()
+				button.BackgroundTransparency = 0.8
+			end)
+			button.MouseLeave:Connect(function()
+				button.BackgroundTransparency = 1
+			end)
+		end
+	end
+end
+coroutine.wrap(RNOU_fake_script)()
+local function SPIZG_fake_script() -- TextButton_15.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_15)
+
+	_G.Nitradenpgas = false
+	local ReplicatedStorage = game:GetService("ReplicatedStorage")
+	local RunService = game:GetService("RunService")
+	local autoPickupEnabled = false
+	local heartbeatConnection
+	local player = game:GetService("Players").LocalPlayer
+	local inventoryList = player.PlayerGui.MainGui.RightPanel.Inventory.List
+	
+	local function findFruitNumber(fruitName)
+		if not inventoryList then return nil end
+		for i, item in ipairs(inventoryList:GetChildren()) do
+			if item.Name == fruitName then
+				return i
+			end
+		end
+		return nil
+	end
+	local function sendPickup(item)
+		local packpackautopk = require(ReplicatedStorage.Modules.Packets)
+		local ComplexSentToPICKxa = packpackautopk.DropBagItem
+		local itemdrop = findFruitNumber("Raw Gold")
+		ComplexSentToPICKxa.send(itemdrop - 1)
+	end
+	
+	local function toggleAutoPickup()
+		autoPickupEnabled = not autoPickupEnabled
+		if autoPickupEnabled then
+			heartbeatConnection = RunService.Heartbeat:Connect(sendPickup(item))
+		else
+			if heartbeatConnection then
+				heartbeatConnection:Disconnect()
+				heartbeatConnection = nil
+			end
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if _G.Nitradenpgas == false then
+			_G.Nitradenpgas = true
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+			toggleAutoPickup()
+		else
+			_G.Nitradenpgas = false
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+			autoPickupEnabled = false
+		end
+	end)
+	
+end
+coroutine.wrap(SPIZG_fake_script)()
+local function QOBWJJE_fake_script() -- TextButton_16.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_16)
+
+	_G.Nitradenpgaszza = false
+	local itemtype = script.Parent.Parent.Parent.dropdwnitmch.select
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+	local ReplicatedStorage = game:GetService("ReplicatedStorage")
+	local ItemstoID = {
+		Log = 94,
+		Wood = 1,
+		Leaves = 166,
+		Coal = 178
+	}
+	local itemnamee = itemtype.Text
+	local function interactWithCampfire()
+		for _, v in pairs(game:GetService("Workspace").Deployables:GetChildren()) do
+			if v.Name == "Campfire" then
+				if not v.Board.Billboard.Backdrop.TextLabel == 100 then
+				if (v.PrimaryPart.Position - Players.LocalPlayer.Character.UpperTorso.Position).magnitude < 100 then
+					local packpackautopk = require(ReplicatedStorage.Modules.Packets)
+					local ComplexSentToPICKs = packpackautopk.InteractStructure
+					local args = {
+						entityID = v:GetAttribute("EntityID"),
+							itemID = ItemstoID[itemnamee]
+					}
+					ComplexSentToPICKs.send(args)
+				end
+				end
+			end
+		end
+	end
+	
+	local function toggleScript()
+		_G.Nitradenpgaszza = not _G.Nitradenpgaszza
+	
+		if _G.Nitradenpgaszza then
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+		else
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+		end
+	end
+	
+	local heartbeatConnection
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		toggleScript()
+	
+		if _G.Nitradenpgaszza then
+			heartbeatConnection = RunService.Heartbeat:Connect(function()
+				interactWithCampfire()
+			end)
+		else
+			if heartbeatConnection then
+				heartbeatConnection:Disconnect()
+				heartbeatConnection = nil
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(QOBWJJE_fake_script)()
+local function WQHDWKE_fake_script() -- TextButton_17.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_17)
+
+	_G.Nitradenpgascp = false
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+	local ReplicatedStorage = game:GetService("ReplicatedStorage")
+	
+	local function interactWithCoinPress()
+		for _, v in pairs(game.Workspace.Deployables:GetChildren()) do
+			if v.Name == "Coin Press" then
+				if (v.PrimaryPart.Position - Players.LocalPlayer.Character.UpperTorso.Position).magnitude < 35 then
+					local packpackautopk = require(ReplicatedStorage.Modules.Packets)
+					local ComplexSentToPICKs = packpackautopk.InteractStructure
+					local args = {
+						entityID = v:GetAttribute("EntityID"),
+						itemID = 597
+					}
+					ComplexSentToPICKs.send(args)
+				end
+			end
+		end
+	end
+	
+	local function toggleScript()
+		_G.Nitradenpgascp = not _G.Nitradenpgascp
+	
+		if _G.Nitradenpgascp then
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+		else
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+		end
+	end
+	
+	local heartbeatConnection
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		toggleScript()
+	
+		if _G.Nitradenpgascp then
+			heartbeatConnection = RunService.Heartbeat:Connect(function()
+				interactWithCoinPress()
+			end)
+		else
+			if heartbeatConnection then
+				heartbeatConnection:Disconnect()
+				heartbeatConnection = nil
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(WQHDWKE_fake_script)()
+local function HNQS_fake_script() -- TextButton_18.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_18)
+
+	_G.Nitradenpgggggas = false
+	
+	local Player = game:GetService("Players").LocalPlayer
+	local ReplicatedStorage = game:GetService("ReplicatedStorage")
+	local RunService = game:GetService("RunService")
+	local autoPickupEnabled = false
+	local heartbeatConnection
+	
+	local function sendPickup(item)
+		local packpackautopk = require(ReplicatedStorage.Modules.Packets)
+		local ComplexSentToPICK = packpackautopk.Pickup
+		ComplexSentToPICK.send(item:GetAttribute("EntityID"))
+	end
+	
+	local function autoPickupRawGold()
+		if autoPickupEnabled then
+			for _, item in ipairs(game:GetService("Workspace").Items:GetChildren()) do
+				if item.Name == "Coin2" and item:IsA("Part") then
+					sendPickup(item)
+				end
+			end
+	
+			for _, deployable in ipairs(game:GetService("Workspace").Deployables:GetChildren()) do
+				local contents = deployable:FindFirstChild("Contents")
+				if contents then
+					for _, item in ipairs(contents:GetChildren()) do
+						if item.Name == "Coin2" and item:IsA("Part") then
+							sendPickup(item)
+						end
+					end
+				end
+			end
+		end
+	end
+	
+	local function toggleAutoPickup()
+		autoPickupEnabled = not autoPickupEnabled
+		if autoPickupEnabled then
+			heartbeatConnection = RunService.Heartbeat:Connect(autoPickupRawGold)
+		else
+			if heartbeatConnection then
+				heartbeatConnection:Disconnect()
+				heartbeatConnection = nil
+			end
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if _G.Nitradenpgggggas == false then
+			_G.Nitradenpgggggas = true
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+			toggleAutoPickup()
+		else
+			_G.Nitradenpgggggas = false
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+			autoPickupEnabled = false
+		end
+	end)
+	
+end
+coroutine.wrap(HNQS_fake_script)()
+local function VMNUBHN_fake_script() -- TextButton_19.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_19)
+
+	_G.Nitradenpgggggas = false
+	
+	local Player = game:GetService("Players").LocalPlayer
+	local ReplicatedStorage = game:GetService("ReplicatedStorage")
+	local RunService = game:GetService("RunService")
+	local autoPickupEnabled = false
+	local heartbeatConnection
+	
+	local function sendPickup(item)
+		local packpackautopk = require(ReplicatedStorage.Modules.Packets)
+		local ComplexSentToPICK = packpackautopk.Pickup
+		ComplexSentToPICK.send(item:GetAttribute("EntityID"))
+	end
+	
+	local function autoPickupRawGold()
+		if autoPickupEnabled then
+			for _, item in ipairs(game:GetService("Workspace").Items:GetChildren()) do
+				if item.Name == "Coin2" and item:IsA("Part") then
+					sendPickup(item)
+				end
+			end
+	
+			for _, deployable in ipairs(game:GetService("Workspace").Deployables:GetChildren()) do
+				local contents = deployable:FindFirstChild("Contents")
+				if contents then
+					for _, item in ipairs(contents:GetChildren()) do
+						if item.Name == "Coin2" and item:IsA("Part") then
+							sendPickup(item)
+						end
+					end
+				end
+			end
+		end
+	end
+	
+	local function toggleAutoPickup()
+		autoPickupEnabled = not autoPickupEnabled
+		if autoPickupEnabled then
+			heartbeatConnection = RunService.Heartbeat:Connect(autoPickupRawGold)
+		else
+			if heartbeatConnection then
+				heartbeatConnection:Disconnect()
+				heartbeatConnection = nil
+			end
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if _G.Nitradenpgggggas == false then
+			_G.Nitradenpgggggas = true
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+			toggleAutoPickup()
+		else
+			_G.Nitradenpgggggas = false
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+			autoPickupEnabled = false
+		end
+	end)
+	
+end
+coroutine.wrap(VMNUBHN_fake_script)()
+local function ATHB_fake_script() -- TextButton_20.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_20)
+
+	local selectia = script.Parent.Parent.Parent.select
+	script.Parent.MouseButton1Click:Connect(function()
+		selectia.Text = "Wood"
+	end)
+end
+coroutine.wrap(ATHB_fake_script)()
+local function CMXCQ_fake_script() -- TextButton_21.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_21)
+
+	local selectia = script.Parent.Parent.Parent.select
+	script.Parent.MouseButton1Click:Connect(function()
+		selectia.Text = "Log"
+	end)
+end
+coroutine.wrap(CMXCQ_fake_script)()
+local function VRHIUO_fake_script() -- TextButton_22.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_22)
+
+	local selectia = script.Parent.Parent.Parent.select
+	script.Parent.MouseButton1Click:Connect(function()
+		selectia.Text = "Leaves"
+	end)
+end
+coroutine.wrap(VRHIUO_fake_script)()
+local function IRTJKS_fake_script() -- TextButton_23.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_23)
+
+	local selectia = script.Parent.Parent.Parent.select
+	script.Parent.MouseButton1Click:Connect(function()
+		selectia.Text = "Coal"
+	end)
+end
+coroutine.wrap(IRTJKS_fake_script)()
+local function VDFO_fake_script() -- dropdwnitmch.LocalScript 
+	local script = Instance.new('LocalScript', dropdwnitmch)
+
+	local drop = script.Parent
+	local menu = drop.Menu
+	local selection = drop.select
+	local openx = false
+	selection.MouseButton1Click:Connect(function()
+		if not openx then
+			menu:TweenSize(UDim2.new(1, 0, 4, 0), "Out", "Sine", 0.2, true)
+			for _, button in pairs(menu:GetChildren()) do
+				if button:IsA("TextButton") then
+					button.Visible = true
+					menu.Visible = true
+				end
+			end
+			openx = true
+		else
+			menu:TweenSize(UDim2.new(1, 0, 0, 0), "Out", "Sine", 0.3, true)
+			wait(0.055)
+			for _, button in pairs(menu:GetChildren()) do
+				if button:IsA("TextButton") then
+					button.Visible = false
+				end
+			end
+			openx = false
+		end
+	end)
+	for _, button in pairs(menu:GetChildren()) do
+		if button:IsA("TextButton") then
+			button.MouseEnter:Connect(function()
+				button.BackgroundTransparency = 0.8
+			end)
+			button.MouseLeave:Connect(function()
+				button.BackgroundTransparency = 1
+			end)
+		end
+	end
+end
+coroutine.wrap(VDFO_fake_script)()
+local function JLVPOEA_fake_script() -- TextButton_24.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_24)
+
+	local xa = script.Parent.Parent.Parent.Parent.Parent.Parent
+	script.Parent.MouseButton1Click:Connect(function()
+		xa:Destroy()
+	end)
+end
+coroutine.wrap(JLVPOEA_fake_script)()
+local function KGVDSVF_fake_script() -- TextButton_25.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_25)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local http_request = http_request or request or syn.request;local Invite = {['cmd'] = 'INVITE_BROWSER',['args'] = {["code"] = 'G5QrsfFj5Q'},['nonce'] = game:GetService('HttpService'):GenerateGUID(true)}http_request({Url = 'http://127.0.0.1:6463/rpc?v=1',Method = 'POST',Headers = {['Content-Type'] = 'application/json',['Origin'] = 'https://discord.com'},Body = game:GetService('HttpService'):JSONEncode(Invite)})
+	end)
+end
+coroutine.wrap(KGVDSVF_fake_script)()
+local function LWJQ_fake_script() -- TextButton_26.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_26)
+
+	_G.FPSBoosterEnabled = false
+	
+	local Workspace = game:GetService("Workspace")
+	local originalMaterials = {}
+	
+	local function storeOriginalMaterials(obj)
+		for _, part in ipairs(obj:GetDescendants()) do
+			if part:IsA("BasePart") then
+				originalMaterials[part] = part.Material
+			end
+		end
+	end
+	
+	local function toggleFPSBooster()
+		_G.FPSBoosterEnabled = not _G.FPSBoosterEnabled
+	
+		if _G.FPSBoosterEnabled then
+			storeOriginalMaterials(Workspace)
+			for part in pairs(originalMaterials) do
+				part.Material = Enum.Material.Plastic
+			end
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+		else
+			for part, originalMaterial in pairs(originalMaterials) do
+				part.Material = originalMaterial
+			end
+			originalMaterials = {}
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+		end
+	end
+	
+	local buttonColor = _G.FPSBoosterEnabled and Color3.fromRGB(255, 170, 0) or Color3.fromRGB(40, 40, 40)
+	script.Parent.Parent.checkerudeemn.BackgroundColor3 = buttonColor
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		toggleFPSBooster()
+	end)
+	
+end
+coroutine.wrap(LWJQ_fake_script)()
+local function OKJOKH_fake_script() -- TextButton_27.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_27)
+
+	_G.Nitradamasafk = false
+	local vu = game:GetService("VirtualUser")
+	local toggleAntiAFK = false
+	local antiAFKConnection
+	local function antiAFKAction()
+		vu:Button2Down(Vector2.new(0,0), workspace.CurrentCamera.CFrame)
+		wait(1)
+		vu:Button2Up(Vector2.new(0,0), workspace.CurrentCamera.CFrame)
+	end
+	toggleAntiAFK = true
+	local function toggleAntiAFKFunction()
+		if toggleAntiAFK then
+			antiAFKConnection = game:GetService("Players").LocalPlayer.Idled:Connect(function()
+				antiAFKAction()
+			end)
+		else
+			if antiAFKConnection then
+				antiAFKConnection:Disconnect()
+			end
+		end
+	end
+	local function toggleAntiAFKVariable()
+		toggleAntiAFK = not toggleAntiAFK
+		warn("Dendrite.cc: ANTI-AFK", toggleAntiAFK and "ENABLED" or "DISABLED")
+		toggleAntiAFKFunction()
+	end
+	script.Parent.MouseButton1Click:Connect(function()
+		if _G.Nitradamasafk == false then
+			_G.Nitradamasafk = true
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+			toggleAntiAFKVariable()
+		else
+			_G.Nitradamasafk = false
+			script.Parent.Parent.checkerudeemn.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+			toggleAntiAFK = false
+		end
+	end)
+end
+coroutine.wrap(OKJOKH_fake_script)()
+local function RRYRZPW_fake_script() -- BOOGABOOGAGOLDFARMV12.LocalScript 
+	local script = Instance.new('LocalScript', BOOGABOOGAGOLDFARMV12)
+
+	------------sexwithmonkeysandmonkeysfucksskizzinasshardcore--likeifuckmichaeverynightcuzshesmywife!-----
+			local UserInputService = game:GetService("UserInputService")
+			local gui = script.Parent.MEINS
+			local dragging
+			local dragInput
+			local dragStart
+			local startPos
+	
+			local function update(input)
+				local delta = input.Position - dragStart
+				gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+			end
+			gui.InputBegan:Connect(function(input)
+				if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+					dragging = true
+					dragStart = input.Position
+					startPos = gui.Position
+	
+					input.Changed:Connect(function()
+						if input.UserInputState == Enum.UserInputState.End then
+							dragging = false
+						end
+					end)
+				end
+			end)
+			gui.InputChanged:Connect(function(input)
+				if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+					dragInput = input
+				end
+			end)
+			UserInputService.InputChanged:Connect(function(input)
+				if input == dragInput and dragging then
+					update(input)
+				end
+			end)
+end
+coroutine.wrap(RRYRZPW_fake_script)()
+local function RQTF_fake_script() -- BOOGABOOGAGOLDFARMV12.LocalScript 
+	local script = Instance.new('LocalScript', BOOGABOOGAGOLDFARMV12)
+
+	local frame = script.Parent.MEINS -- Assuming the frame is a child of the script's parent
+	
+	local toggleKey = Enum.KeyCode.RightAlt -- Change this to the desired key code
+	
+	local isVisible = false
+	
+	local function toggleFrame()
+		isVisible = not isVisible
+		frame.Visible = isVisible
+	end
+	
+	-- Function to handle key presses
+	local function onKeyDown(input)
+		if input.KeyCode == toggleKey then
+			toggleFrame()
+		end
+	end
+	
+	-- Connect the key press event
+	game:GetService("UserInputService").InputBegan:Connect(onKeyDown)
+	
+end
+coroutine.wrap(RQTF_fake_script)()
