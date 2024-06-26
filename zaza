@@ -1095,7 +1095,7 @@ checkerudeemn_14.TextSize = 14.000
 
 -- Scripts:
 
-local function CHEV_fake_script() -- TextButton.LocalScript 
+local function JAUUYT_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local mai = script.Parent.Parent.Main
@@ -1105,8 +1105,8 @@ local function CHEV_fake_script() -- TextButton.LocalScript
 		xaixa.Visible = false
 	end)
 end
-coroutine.wrap(CHEV_fake_script)()
-local function SVALGC_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(JAUUYT_fake_script)()
+local function PDQHTW_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local mai = script.Parent.Parent.Main
@@ -1116,8 +1116,8 @@ local function SVALGC_fake_script() -- TextButton_2.LocalScript
 		xaixa.Visible = true
 	end)
 end
-coroutine.wrap(SVALGC_fake_script)()
-local function LSASQKR_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(PDQHTW_fake_script)()
+local function QPTSIG_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	_G.Nitradengf = false
@@ -1295,8 +1295,8 @@ local function LSASQKR_fake_script() -- TextButton_3.LocalScript
 	end)
 	
 end
-coroutine.wrap(LSASQKR_fake_script)()
-local function QLFMDA_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(QPTSIG_fake_script)()
+local function XOWO_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	_G.Nitradenpg = false
@@ -1361,8 +1361,8 @@ local function QLFMDA_fake_script() -- TextButton_4.LocalScript
 	end)
 	
 end
-coroutine.wrap(QLFMDA_fake_script)()
-local function DXSKCN_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(XOWO_fake_script)()
+local function FHEUY_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	_G.Nitradenag = false
@@ -1405,8 +1405,8 @@ local function DXSKCN_fake_script() -- TextButton_5.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DXSKCN_fake_script)()
-local function CFXQDT_fake_script() -- TextButton_6.LocalScript 
+coroutine.wrap(FHEUY_fake_script)()
+local function JJFA_fake_script() -- TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_6)
 
 	_G.Nitradenaggsadc = false
@@ -1423,8 +1423,8 @@ local function CFXQDT_fake_script() -- TextButton_6.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CFXQDT_fake_script)()
-local function SZNYP_fake_script() -- TextButton_7.LocalScript 
+coroutine.wrap(JJFA_fake_script)()
+local function SLFHZQ_fake_script() -- TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_7)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -1432,8 +1432,8 @@ local function SZNYP_fake_script() -- TextButton_7.LocalScript
 		selectia.Text = "Auto Walk"
 	end)
 end
-coroutine.wrap(SZNYP_fake_script)()
-local function XRPMG_fake_script() -- TextButton_8.LocalScript 
+coroutine.wrap(SLFHZQ_fake_script)()
+local function PXUZLPH_fake_script() -- TextButton_8.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_8)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -1441,8 +1441,8 @@ local function XRPMG_fake_script() -- TextButton_8.LocalScript
 		selectia.Text = "Fast Tween"
 	end)
 end
-coroutine.wrap(XRPMG_fake_script)()
-local function YXKILJT_fake_script() -- dropdwntypefarm.LocalScript 
+coroutine.wrap(PXUZLPH_fake_script)()
+local function HAWD_fake_script() -- dropdwntypefarm.LocalScript 
 	local script = Instance.new('LocalScript', dropdwntypefarm)
 
 	local drop = script.Parent
@@ -1481,8 +1481,8 @@ local function YXKILJT_fake_script() -- dropdwntypefarm.LocalScript
 		end
 	end
 end
-coroutine.wrap(YXKILJT_fake_script)()
-local function EALMCF_fake_script() -- TextButton_9.LocalScript 
+coroutine.wrap(HAWD_fake_script)()
+local function WNTZMK_fake_script() -- TextButton_9.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_9)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -1490,8 +1490,8 @@ local function EALMCF_fake_script() -- TextButton_9.LocalScript
 		selectia.Text = "Bloodfruit"
 	end)
 end
-coroutine.wrap(EALMCF_fake_script)()
-local function GTZP_fake_script() -- TextButton_10.LocalScript 
+coroutine.wrap(WNTZMK_fake_script)()
+local function PSPDA_fake_script() -- TextButton_10.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_10)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -1499,8 +1499,8 @@ local function GTZP_fake_script() -- TextButton_10.LocalScript
 		selectia.Text = "Lemon"
 	end)
 end
-coroutine.wrap(GTZP_fake_script)()
-local function AUFFD_fake_script() -- TextButton_11.LocalScript 
+coroutine.wrap(PSPDA_fake_script)()
+local function SXYOOD_fake_script() -- TextButton_11.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_11)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -1508,8 +1508,8 @@ local function AUFFD_fake_script() -- TextButton_11.LocalScript
 		selectia.Text = "Berry"
 	end)
 end
-coroutine.wrap(AUFFD_fake_script)()
-local function RXHE_fake_script() -- TextButton_12.LocalScript 
+coroutine.wrap(SXYOOD_fake_script)()
+local function QPUEYJD_fake_script() -- TextButton_12.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_12)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -1517,8 +1517,8 @@ local function RXHE_fake_script() -- TextButton_12.LocalScript
 		selectia.Text = "Carrot"
 	end)
 end
-coroutine.wrap(RXHE_fake_script)()
-local function YAWI_fake_script() -- TextButton_13.LocalScript 
+coroutine.wrap(QPUEYJD_fake_script)()
+local function KSZF_fake_script() -- TextButton_13.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_13)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -1526,8 +1526,8 @@ local function YAWI_fake_script() -- TextButton_13.LocalScript
 		selectia.Text = "Bluefruit"
 	end)
 end
-coroutine.wrap(YAWI_fake_script)()
-local function GWFO_fake_script() -- TextButton_14.LocalScript 
+coroutine.wrap(KSZF_fake_script)()
+local function POJK_fake_script() -- TextButton_14.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_14)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -1535,8 +1535,8 @@ local function GWFO_fake_script() -- TextButton_14.LocalScript
 		selectia.Text = "Prickly Pear"
 	end)
 end
-coroutine.wrap(GWFO_fake_script)()
-local function DPGXYZ_fake_script() -- dropdwnpnttyp.LocalScript 
+coroutine.wrap(POJK_fake_script)()
+local function PAVAWES_fake_script() -- dropdwnpnttyp.LocalScript 
 	local script = Instance.new('LocalScript', dropdwnpnttyp)
 
 	local drop = script.Parent
@@ -1575,8 +1575,8 @@ local function DPGXYZ_fake_script() -- dropdwnpnttyp.LocalScript
 		end
 	end
 end
-coroutine.wrap(DPGXYZ_fake_script)()
-local function OAKR_fake_script() -- TextButton_15.LocalScript 
+coroutine.wrap(PAVAWES_fake_script)()
+local function TULXF_fake_script() -- TextButton_15.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_15)
 
 	_G.Nitradenagsacz = false
@@ -1593,8 +1593,8 @@ local function OAKR_fake_script() -- TextButton_15.LocalScript
 		end
 	end)
 end
-coroutine.wrap(OAKR_fake_script)()
-local function EFCB_fake_script() -- TextButton_16.LocalScript 
+coroutine.wrap(TULXF_fake_script)()
+local function CTNKK_fake_script() -- TextButton_16.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_16)
 
 	_G.Nitradenag = false
@@ -1637,8 +1637,8 @@ local function EFCB_fake_script() -- TextButton_16.LocalScript
 		end
 	end)
 end
-coroutine.wrap(EFCB_fake_script)()
-local function PHJS_fake_script() -- TextButton_17.LocalScript 
+coroutine.wrap(CTNKK_fake_script)()
+local function LQVV_fake_script() -- TextButton_17.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_17)
 
 	local HealingHPPercent = 100
@@ -1700,8 +1700,8 @@ local function PHJS_fake_script() -- TextButton_17.LocalScript
 	script.Parent.MouseButton1Click:Connect(toggleScripthea)
 	
 end
-coroutine.wrap(PHJS_fake_script)()
-local function WBAWCO_fake_script() -- TextButton_18.LocalScript 
+coroutine.wrap(LQVV_fake_script)()
+local function SVFOY_fake_script() -- TextButton_18.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_18)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -1709,8 +1709,8 @@ local function WBAWCO_fake_script() -- TextButton_18.LocalScript
 		selectia.Text = "Bloodfruit"
 	end)
 end
-coroutine.wrap(WBAWCO_fake_script)()
-local function RVNFT_fake_script() -- TextButton_19.LocalScript 
+coroutine.wrap(SVFOY_fake_script)()
+local function OTJMRV_fake_script() -- TextButton_19.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_19)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -1718,8 +1718,8 @@ local function RVNFT_fake_script() -- TextButton_19.LocalScript
 		selectia.Text = "Lemon"
 	end)
 end
-coroutine.wrap(RVNFT_fake_script)()
-local function SNSPAI_fake_script() -- TextButton_20.LocalScript 
+coroutine.wrap(OTJMRV_fake_script)()
+local function QLYQ_fake_script() -- TextButton_20.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_20)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -1727,8 +1727,8 @@ local function SNSPAI_fake_script() -- TextButton_20.LocalScript
 		selectia.Text = "Berry"
 	end)
 end
-coroutine.wrap(SNSPAI_fake_script)()
-local function ZFEOK_fake_script() -- TextButton_21.LocalScript 
+coroutine.wrap(QLYQ_fake_script)()
+local function EVOFWST_fake_script() -- TextButton_21.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_21)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -1736,8 +1736,8 @@ local function ZFEOK_fake_script() -- TextButton_21.LocalScript
 		selectia.Text = "Carrot"
 	end)
 end
-coroutine.wrap(ZFEOK_fake_script)()
-local function FKUMF_fake_script() -- TextButton_22.LocalScript 
+coroutine.wrap(EVOFWST_fake_script)()
+local function PAXIH_fake_script() -- TextButton_22.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_22)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -1745,8 +1745,8 @@ local function FKUMF_fake_script() -- TextButton_22.LocalScript
 		selectia.Text = "Bluefruit"
 	end)
 end
-coroutine.wrap(FKUMF_fake_script)()
-local function UVIWHZM_fake_script() -- TextButton_23.LocalScript 
+coroutine.wrap(PAXIH_fake_script)()
+local function LFDLMAT_fake_script() -- TextButton_23.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_23)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -1754,8 +1754,8 @@ local function UVIWHZM_fake_script() -- TextButton_23.LocalScript
 		selectia.Text = "Prickly Pear"
 	end)
 end
-coroutine.wrap(UVIWHZM_fake_script)()
-local function BNMELHK_fake_script() -- dropdwnfod.LocalScript 
+coroutine.wrap(LFDLMAT_fake_script)()
+local function CUAIX_fake_script() -- dropdwnfod.LocalScript 
 	local script = Instance.new('LocalScript', dropdwnfod)
 
 	local drop = script.Parent
@@ -1794,8 +1794,8 @@ local function BNMELHK_fake_script() -- dropdwnfod.LocalScript
 		end
 	end
 end
-coroutine.wrap(BNMELHK_fake_script)()
-local function DNXZLX_fake_script() -- TextButton_24.LocalScript 
+coroutine.wrap(CUAIX_fake_script)()
+local function RIAA_fake_script() -- TextButton_24.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_24)
 
 	_G.Nitradenpgas = false
@@ -1852,8 +1852,8 @@ local function DNXZLX_fake_script() -- TextButton_24.LocalScript
 	end)
 	
 end
-coroutine.wrap(DNXZLX_fake_script)()
-local function VSGF_fake_script() -- TextButton_25.LocalScript 
+coroutine.wrap(RIAA_fake_script)()
+local function IOFJKTO_fake_script() -- TextButton_25.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_25)
 
 	_G.Nitradenpgggggasa = false
@@ -1916,8 +1916,8 @@ local function VSGF_fake_script() -- TextButton_25.LocalScript
 	end)
 	
 end
-coroutine.wrap(VSGF_fake_script)()
-local function JWVAPZ_fake_script() -- TextButton_26.LocalScript 
+coroutine.wrap(IOFJKTO_fake_script)()
+local function IEEHS_fake_script() -- TextButton_26.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_26)
 
 	_G.Nitradenpgascp = false
@@ -1969,8 +1969,8 @@ local function JWVAPZ_fake_script() -- TextButton_26.LocalScript
 	end)
 	
 end
-coroutine.wrap(JWVAPZ_fake_script)()
-local function ISSF_fake_script() -- TextButton_27.LocalScript 
+coroutine.wrap(IEEHS_fake_script)()
+local function IIAG_fake_script() -- TextButton_27.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_27)
 
 	_G.Nitradenpgggggas = false
@@ -2033,8 +2033,8 @@ local function ISSF_fake_script() -- TextButton_27.LocalScript
 	end)
 	
 end
-coroutine.wrap(ISSF_fake_script)()
-local function OBNOD_fake_script() -- TextButton_28.LocalScript 
+coroutine.wrap(IIAG_fake_script)()
+local function ZJRB_fake_script() -- TextButton_28.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_28)
 
 	_G.Nitradenpgaszza = false
@@ -2098,8 +2098,8 @@ local function OBNOD_fake_script() -- TextButton_28.LocalScript
 	end)
 	
 end
-coroutine.wrap(OBNOD_fake_script)()
-local function UHXMON_fake_script() -- TextButton_29.LocalScript 
+coroutine.wrap(ZJRB_fake_script)()
+local function NOUDFAG_fake_script() -- TextButton_29.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_29)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -2107,8 +2107,8 @@ local function UHXMON_fake_script() -- TextButton_29.LocalScript
 		selectia.Text = "Wood"
 	end)
 end
-coroutine.wrap(UHXMON_fake_script)()
-local function QEQZAWO_fake_script() -- TextButton_30.LocalScript 
+coroutine.wrap(NOUDFAG_fake_script)()
+local function GSAUJ_fake_script() -- TextButton_30.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_30)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -2116,8 +2116,8 @@ local function QEQZAWO_fake_script() -- TextButton_30.LocalScript
 		selectia.Text = "Log"
 	end)
 end
-coroutine.wrap(QEQZAWO_fake_script)()
-local function APQYH_fake_script() -- TextButton_31.LocalScript 
+coroutine.wrap(GSAUJ_fake_script)()
+local function EPHPTOA_fake_script() -- TextButton_31.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_31)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -2125,8 +2125,8 @@ local function APQYH_fake_script() -- TextButton_31.LocalScript
 		selectia.Text = "Leaves"
 	end)
 end
-coroutine.wrap(APQYH_fake_script)()
-local function KENACNB_fake_script() -- TextButton_32.LocalScript 
+coroutine.wrap(EPHPTOA_fake_script)()
+local function JFJYDV_fake_script() -- TextButton_32.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_32)
 
 	local selectia = script.Parent.Parent.Parent.select
@@ -2134,8 +2134,8 @@ local function KENACNB_fake_script() -- TextButton_32.LocalScript
 		selectia.Text = "Coal"
 	end)
 end
-coroutine.wrap(KENACNB_fake_script)()
-local function AKQJ_fake_script() -- dropdwnitmch.LocalScript 
+coroutine.wrap(JFJYDV_fake_script)()
+local function TYYX_fake_script() -- dropdwnitmch.LocalScript 
 	local script = Instance.new('LocalScript', dropdwnitmch)
 
 	local drop = script.Parent
@@ -2174,8 +2174,8 @@ local function AKQJ_fake_script() -- dropdwnitmch.LocalScript
 		end
 	end
 end
-coroutine.wrap(AKQJ_fake_script)()
-local function NZKP_fake_script() -- TextButton_33.LocalScript 
+coroutine.wrap(TYYX_fake_script)()
+local function NMFE_fake_script() -- TextButton_33.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_33)
 
 	local xa = script.Parent.Parent.Parent.Parent.Parent.Parent
@@ -2183,16 +2183,16 @@ local function NZKP_fake_script() -- TextButton_33.LocalScript
 		xa:Destroy()
 	end)
 end
-coroutine.wrap(NZKP_fake_script)()
-local function REMW_fake_script() -- TextButton_34.LocalScript 
+coroutine.wrap(NMFE_fake_script)()
+local function XJWRK_fake_script() -- TextButton_34.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_34)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local http_request = http_request or request or syn.request;local Invite = {['cmd'] = 'INVITE_BROWSER',['args'] = {["code"] = 'G5QrsfFj5Q'},['nonce'] = game:GetService('HttpService'):GenerateGUID(true)}http_request({Url = 'http://127.0.0.1:6463/rpc?v=1',Method = 'POST',Headers = {['Content-Type'] = 'application/json',['Origin'] = 'https://discord.com'},Body = game:GetService('HttpService'):JSONEncode(Invite)})
 	end)
 end
-coroutine.wrap(REMW_fake_script)()
-local function TXMY_fake_script() -- TextButton_35.LocalScript 
+coroutine.wrap(XJWRK_fake_script)()
+local function UMFVXF_fake_script() -- TextButton_35.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_35)
 
 	_G.FPSBoosterEnabled = false
@@ -2234,8 +2234,8 @@ local function TXMY_fake_script() -- TextButton_35.LocalScript
 	end)
 	
 end
-coroutine.wrap(TXMY_fake_script)()
-local function OSTTIF_fake_script() -- TextButton_36.LocalScript 
+coroutine.wrap(UMFVXF_fake_script)()
+local function VDVYW_fake_script() -- TextButton_36.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_36)
 
 	_G.Nitradamasafk = false
@@ -2281,8 +2281,8 @@ local function OSTTIF_fake_script() -- TextButton_36.LocalScript
 	end)
 	
 end
-coroutine.wrap(OSTTIF_fake_script)()
-local function XNAUGIJ_fake_script() -- BOOGABOOGAGOLDFARMV12.LocalScript 
+coroutine.wrap(VDVYW_fake_script)()
+local function IRGL_fake_script() -- BOOGABOOGAGOLDFARMV12.LocalScript 
 	local script = Instance.new('LocalScript', BOOGABOOGAGOLDFARMV12)
 
 	------------sexwithmonkeysandmonkeysfucksskizzinasshardcore--likeifuckmichaeverynightcuzshesmywife!-----
@@ -2321,8 +2321,8 @@ local function XNAUGIJ_fake_script() -- BOOGABOOGAGOLDFARMV12.LocalScript
 				end
 			end)
 end
-coroutine.wrap(XNAUGIJ_fake_script)()
-local function ZNOSBUS_fake_script() -- BOOGABOOGAGOLDFARMV12.LocalScript 
+coroutine.wrap(IRGL_fake_script)()
+local function QLZN_fake_script() -- BOOGABOOGAGOLDFARMV12.LocalScript 
 	local script = Instance.new('LocalScript', BOOGABOOGAGOLDFARMV12)
 
 	local frame = script.Parent.MEINS -- Assuming the frame is a child of the script's parent
@@ -2347,4 +2347,4 @@ local function ZNOSBUS_fake_script() -- BOOGABOOGAGOLDFARMV12.LocalScript
 	game:GetService("UserInputService").InputBegan:Connect(onKeyDown)
 	
 end
-coroutine.wrap(ZNOSBUS_fake_script)()
+coroutine.wrap(QLZN_fake_script)()
